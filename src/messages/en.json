@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "title": "Willow Creek Hoodoos Drumheller AB | Scenic Spot - Complete Visitor Guide",
+    "description": "Complete guide to Willow Creek Hoodoos in Drumheller, Alberta, Canada. Learn about this scenic spot, its location, visiting information, and travel tips. Discover the unique hoodoo rock formations."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Willow Creek Hoodoos",
+    "subtitle": "Scenic Spot - Unique Rock Formations in Drumheller, Alberta",
+    "rating": "4.6(5,962)",
+    "reviewCount": "5,962 reviews",
+    "type": "Scenic Spot · Alberta Must-Visit",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Discover Willow Creek Hoodoos",
+    "description": "Willow Creek Hoodoos is a spectacular scenic spot located near Drumheller, Alberta, Canada. This natural landmark features unique hoodoo rock formations created by centuries of erosion and weathering.\n\nHoodoos are tall, thin rock spires that rise from the ground, formed by differential erosion of sedimentary rock. These fascinating geological structures are the result of thousands of years of natural forces shaping the landscape.\n\nLocated along Coulee Way in the heart of the Canadian Badlands, Willow Creek Hoodoos offers visitors a chance to witness these incredible natural sculptures up close and learn about the geological history of Alberta's prairie region.",
+    "visitGuide": {
+      "title": "Visit Tips",
+      "items": [
+        "The site is accessible year-round, with best conditions from May to October",
+        "Wear sturdy walking shoes as the terrain can be uneven",
+        "Bring water and sun protection, especially during summer months",
+        "Visit during golden hour (sunrise or sunset) for the best photography lighting",
+        "Check weather conditions before visiting, as the area can be windy"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "What Makes It Special",
+      "items": [
+        "Unique hoodoo rock formations sculpted by natural erosion",
+        "Located in the scenic Canadian Badlands region",
+        "Easy access with parking available on-site",
+        "Great educational opportunity to learn about geology and erosion",
+        "Perfect stop when exploring Drumheller's dinosaur country"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "About Willow Creek Hoodoos",
+    "sections": [
+      {
+        "id": "geology",
+        "title": "Geological Formation",
+        "content": "Hoodoos are formed through a process called differential erosion. The top of each hoodoo is typically capped with a harder layer of rock that protects the softer sedimentary rock underneath from erosion. Over thousands of years, wind and water gradually wear away the surrounding rock, leaving behind these tall, thin spires.\n\nThe Willow Creek Hoodoos were formed during the last ice age, approximately 12,000 years ago. The layers of sedimentary rock visible in the hoodoos tell the story of ancient river systems and glacial activity that shaped this region."
+      },
+      {
+        "id": "location",
+        "title": "Location & Access",
+        "content": "Willow Creek Hoodoos is located along Coulee Way in Drumheller, Alberta. The site is easily accessible by car, with parking available on-site. The coordinates are approximately 51.4658° N, 112.6939° W.\n\nDrumheller is known as the 'Dinosaur Capital of the World' and is located about 135 kilometers northeast of Calgary. The hoodoos are one of the many natural attractions in the area, alongside the Royal Tyrrell Museum and Dinosaur Provincial Park."
+      },
+      {
+        "id": "history",
+        "title": "Cultural Significance",
+        "content": "The land where Willow Creek Hoodoos is located has been home to Indigenous peoples for thousands of years. The Blackfoot Confederacy, including the Siksika, Kainai, and Piikani nations, have deep connections to this landscape.\n\nThe unique rock formations have long been a point of interest for both Indigenous peoples and later European settlers. Today, the site serves as an important educational resource about geology, natural history, and the cultural heritage of the Canadian Prairies."
+      },
+      {
+        "id": "conservation",
+        "title": "Preservation Efforts",
+        "content": "Hoodoos are fragile natural structures that can be damaged by human activity. Climbing on or touching the hoodoos is strictly prohibited to preserve these geological wonders for future generations.\n\nVisitors are asked to stay on designated pathways and respect all signage. The Town of Drumheller and Alberta Parks work together to maintain the site and educate visitors about the importance of preserving these unique natural formations."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Willow Creek Hoodoos",
+    "type": "Attraction Type",
+    "typeValue": "Scenic Spot, Natural Landmark, Alberta Attraction",
+    "country": "Country",
+    "countryValue": "Canada",
+    "city": "City",
+    "cityValue": "Drumheller, Alberta",
+    "googleRating": "Google Rating",
+    "googleRatingValue": "4.6/5 (5,962)",
+    "phone": "Phone",
+    "phoneValue": "+1 403-823-7741",
+    "address": "Address",
+    "addressValue": "Coulee Way, Drumheller, AB T0J 0Y0, Canada"
+  },
+  "hours": {
+    "title": "Visiting Hours",
+    "park": "Site Access",
+    "parkTime": "Open year-round, dawn to dusk",
+    "bestTime": "Best Time to Visit",
+    "bestTimeSpring": "Spring (May-June): Mild weather, wildflowers in bloom",
+    "bestTimeSummer": "Summer (July-August): Warm days, best for photography (arrive early to avoid heat)",
+    "bestTimeAutumn": "Autumn (September-October): Cooler temperatures, beautiful fall colors",
+    "bestTimeWinter": "Winter (November-April): Snow-covered landscape, dress warmly, access may be limited",
+    "tip": "Check Town of Drumheller website for seasonal updates"
+  },
+  "tickets": {
+    "title": "Admission Information",
+    "park": "Site Visit",
+    "parkPrice": "Free admission, no entrance fee",
+    "parking": "Parking",
+    "parkingPrice": "Free on-site parking available",
+    "guided": "Guided Tours",
+    "guidedPrice": "Self-guided visit. Guided tours may be available through local tour operators in Drumheller."
+  },
+  "transport": {
+    "title": "How to Get Here",
+    "fromCenter": "From Drumheller Town Center",
+    "fromCenterDesc": "Drive about 10-15 minutes from downtown Drumheller. Follow signs to Hoodoo Trail (Highway 10).",
+    "fromStation": "From Calgary",
+    "fromStationDesc": "Drive about 1.5 hours from Calgary via Highway 2 North and Highway 9 East to Drumheller.",
+    "fromAirport": "From Calgary International Airport (YYC)",
+    "fromAirportDesc": "About 1.5-2 hours drive from YYC. Take Highway 2 North, then Highway 9 East to Drumheller, follow signs to Hoodoo Trail.",
+    "publicTransport": "Public Transport",
+    "publicTransportDesc": "Limited public transport. Consider renting a car in Calgary or joining a guided tour from Calgary or Drumheller.",
+    "walking": "Walking or Biking",
+    "walkingDesc": "Not recommended from town center due to distance and lack of dedicated pathways. Best to drive or take a tour.",
+    "driving": "Driving & Parking",
+    "drivingDesc": "Free parking available on-site. The road is paved and accessible by all vehicles. Follow signs to 'Hoodoos' from Drumheller town center."
+  },
+  "route": {
+    "title": "Recommended Visit Route",
+    "overview": "Willow Creek Hoodoos is perfect for a 1-2 hour visit. We recommend arriving in the morning or late afternoon for the best lighting and fewer crowds. Plan about 1-2 hours to explore the site, take photos, and read the interpretive signs.",
+    "steps": [
+      "Start at the parking area on Coulee Way",
+      "Follow the designated pathway to the main viewpoint",
+      "Take photos from the viewing platform",
+      "Walk along the interpretive trail to learn about hoodoo formation",
+      "Read the educational signs about geology and local history",
+      "Explore different angles for photography",
+      "Visit the nearby Hoodoo Trail for more scenic views",
+      "Continue to other Drumheller attractions (Royal Tyrrell Museum, Dinosaur Trail)"
+    ]
+  },
+  "photoSpots": {
+    "title": "Best Photo Spots",
+    "spots": [
+      {
+        "name": "Main Viewing Platform",
+        "desc": "Capture the hoodoos with the Badlands landscape in the background"
+      },
+      {
+        "name": "Interpretive Trail",
+        "desc": "Photograph hoodoos from different angles along the walking path"
+      },
+      {
+        "name": "Sunrise/Sunset Views",
+        "desc": "Golden hour lighting creates dramatic shadows and warm tones on the rocks"
+      },
+      {
+        "name": "Wide Landscape Shots",
+        "desc": "Capture the vastness of the Canadian Badlands surrounding the hoodoos"
+      },
+      {
+        "name": "Close-up of Rock Layers",
+        "desc": "Photograph the detailed sedimentary layers that tell the geological story"
+      }
+    ]
+  },
+  "hotels": {
+    "title": "Accommodation",
+    "hotels": [
+      {
+        "name": "Ramada by Wyndham Drumheller Hotel & Suites",
+        "desc": "Full-service hotel in Drumheller, indoor pool, close to all attractions",
+        "price": "~$120-200/night"
+      },
+      {
+        "name": "Quality Hotel Drumheller",
+        "desc": "Budget-friendly hotel with basic amenities, 10 minutes to hoodoos",
+        "price": "~$80-150/night"
+      },
+      {
+        "name": "Dinosaur RV Park & Campground",
+        "desc": "Campground option for RVs and tents, great for families",
+        "price": "~$30-60/night"
+      },
+      {
+        "name": "Airbnb in Drumheller",
+        "desc": "Various vacation rentals in Drumheller town site, experience local hospitality",
+        "price": "~$80-180/night"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Willow Creek Hoodoos - Drumheller, Alberta",
+    "captions": [
+      "Hoodoo Formation 1",
+      "Hoodoo Formation 2",
+      "Hoodoo Formation 3",
+      "Badlands Landscape 1",
+      "Badlands Landscape 2",
+      "Hoodoo Close-up 1",
+      "Hoodoo Close-up 2",
+      "Viewing Platform",
+      "Interpretive Trail",
+      "Sunset at Hoodoos",
+      "Rock Layers Detail",
+      "Panoramic View",
+      "Hoodoos in Winter",
+      "Hoodoos in Summer",
+      "Badlands Scenery",
+      "Visitor Area"
+    ],
+    "viewAll": "View on Google Maps",
+    "showAll": "View All Photos",
+    "showLess": "Show Less"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
+    "moreReviews": "View more reviews on Google Maps",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "date": "May 2026",
+        "rating": 5,
+        "text": "Amazing natural rock formations! The hoodoos are even more impressive in person. Great educational signs along the trail. Perfect stop when visiting Drumheller."
+      },
+      {
+        "name": "James T.",
+        "date": "April 2026",
+        "rating": 5,
+        "text": "A must-see when in Drumheller! The site is well-maintained with good parking and easy walking paths. The interpretive signs are very informative about how hoodoos are formed."
+      },
+      {
+        "name": "Emily L.",
+        "date": "March 2026",
+        "rating": 4,
+        "text": "Beautiful scenery and great for photography. Visited in spring and the weather was perfect. Would recommend going early in the morning to avoid crowds and get the best light."
+      },
+      {
+        "name": "Michael R.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "Fascinating geological site! Free to visit and easy to access. The kids loved learning about how these rock formations were created. A great addition to our Drumheller dinosaur trip."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Coulee Way, Drumheller, AB T0J 0Y0, Canada",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Willow Creek Hoodoos Independent Tourism Research Association · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Related Resources & Information",
+    "officialLinks": {
+      "drumheller": "Town of Drumheller",
+      "albertaParks": "Alberta Parks",
+      "travelAlberta": "Travel Alberta",
+      "royalTyrrell": "Royal Tyrrell Museum",
+      "geologicalSurvey": "Geological Survey of Canada"
+    },
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We generally do not actively collect personally identifiable information from users. Any information provided by you through contact forms or emails will be kept strictly confidential."
+      },
+      {
+        "heading": "2. Use of Information",
+        "content": "The information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+      },
+      {
+        "heading": "3. Cookies and Tracking",
+        "content": "We use cookies and similar tracking technologies to track the activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "The security of your data is important to us. We use commercially acceptable means to protect your Personal Data, though no method of transmission over the Internet is 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+          "content": "By accessing and using this website, you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service."
+      },
+      {
+        "heading": "2. Use of Service",
+        "content": "This website is an independent third-party tourist information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "All content on this website, including texts, images, and logos, is the property of the website owner unless otherwise stated. Unauthorized use, reproduction, or distribution is strictly prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained herein."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Required for basic website functionality.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!"
+  },
+  "officialManagement": {
+    "title": "About Willow Creek Hoodoos",
+    "text": "Willow Creek Hoodoos is a spectacular scenic spot located near Drumheller, Alberta, Canada. This natural landmark features unique hoodoo rock formations created by centuries of erosion and weathering.\n\nHoodoos are tall, thin rock spires that rise from the ground, formed by differential erosion of sedimentary rock. These fascinating geological structures are the result of thousands of years of natural forces shaping the landscape.\n\nLocated along Coulee Way in the heart of the Canadian Badlands, Willow Creek Hoodoos offers visitors a chance to witness these incredible natural sculptures up close and learn about the geological history of Alberta's prairie region."
+  },
+  "recommendations": {
+    "title": "",
+    "attractionsTitle": "",
+    "toursTitle": "",
+    "attractions": [],
+    "tours": []
+  }
+}

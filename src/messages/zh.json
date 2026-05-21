@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "title": "Willow Creek Hoodoos 柳树溪石柱｜德拉姆黑勒必游景点",
+    "description": "探索加拿大阿尔伯塔省德拉姆黑勒市 Willow Creek Hoodoos 的完整指南。了解这一自然景观、地理位置和游览信息。发现独特的石林地貌。"
+  },
+  "header": {
+    "home": "首页",
+    "gallery": "图库",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "Willow Creek Hoodoos",
+    "subtitle": "天然石林奇观 - 德拉姆黑勒的独特地质景观",
+    "rating": "4.6(5,962)",
+    "reviewCount": "5,962 条评价",
+    "type": "自然景观 · 阿尔伯塔省必游",
+    "openMaps": "查看位置"
+  },
+  "intro": {
+    "title": "探索 Willow Creek Hoodoos",
+    "description": "Willow Creek Hoodoos（柳树溪石柱）是位于加拿大阿尔伯塔省德拉姆黑勒市附近的一处壮观的自然景观。这一自然地标拥有独特的石林（Hoodoo）地貌，由数百年的侵蚀和风化作用形成。\n\n石林（Hoodoo）是从地面拔地而起的细长岩石尖塔，由沉积岩的差异性侵蚀形成。这些迷人的地质结构是好几千年自然力量塑造地貌的结果。\n\n柳树溪石林位于加拿大恶地（Canadian Badlands）心脏地带的 Coulee Way 沿线，为游客提供了近距离观察这些令人难以置信的自然雕塑的机会，并了解阿尔伯塔省草原地区的地质历史。",
+    "visitGuide": {
+      "title": "游览建议",
+      "items": [
+        "景区全年开放，5月至10月是最佳游览时间",
+        "穿着结实的步行鞋，因为地形可能不平坦",
+        "携带水和防晒用品，尤其是在夏季",
+        "在黄金时段（日出或日落）参观，可获得最佳摄影光线",
+        "出发前查看天气状况，该地区可能风很大"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "景点特色",
+      "items": [
+        "由自然侵蚀塑造的独特石林地貌",
+        "位于风景优美的加拿大恶地地区",
+        "交通便利，现场有停车场",
+        "了解地质学和侵蚀作用的绝佳教育机会",
+        "探索德拉姆黑勒恐龙之乡的完美一站"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "关于 Willow Creek Hoodoos",
+    "sections": [
+      {
+        "id": "geology",
+        "title": "地质形成",
+        "content": "石林（Hoodoo）是通过一种称为差异性侵蚀的过程形成的。每个石林的顶部通常有一个较硬的岩石层，保护其下方的较软沉积岩免受侵蚀。数千年来，风和水逐渐磨损周围的岩石，留下这些高大细长的尖塔。\n\n柳树溪石林形成于大约12,000年前的最后一个冰河时代。石林中可见的沉积岩层讲述了塑造这一地区的古代河流系统和冰川活动。"
+      },
+      {
+        "id": "location",
+        "title": "地理位置与交通",
+        "content": "柳树溪石林位于阿尔伯塔省德拉姆黑勒市的 Coulee Way 沿线。该景点可轻松驾车到达，现场有停车场。坐标约为北纬51.4658°，西经112.6939°。\n\n德拉姆黑勒被称为'世界恐龙之都'，位于卡尔加里东北约135公里处。石林是该地区众多自然景点之一，旁边还有皇家蒂雷尔博物馆和恐龙省立公园。"
+      },
+      {
+        "id": "history",
+        "title": "文化意义",
+        "content": "柳树溪石林所在的土地是土著民族数千年的家园。黑脚联盟（包括 Siksika、Kainai 和 Piikani 民族）与这片土地有着深厚的联系。\n\n这些独特的岩石构造长期以来一直是土著民族和后来的欧洲定居者关注的对象。今天，该地点作为关于地质学、自然历史和加拿大草原文化遗产的重要教育资源。"
+      },
+      {
+        "id": "conservation",
+        "title": "保护 efforts",
+        "content": "石林是脆弱的自然结构，可能被人类活动破坏。严禁攀爬或触摸石林，以为后代保护这些地质奇观。\n\n游客被要求留在指定路径上并尊重所有标志。德拉姆黑勒镇和阿尔伯塔省公园局共同维护该地点，并教育游客保护这些独特自然构造的重要性。"
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "基础信息",
+    "officialName": "正式名称",
+    "officialNameValue": "Willow Creek Hoodoos（柳树溪石林）",
+    "type": "景点类型",
+    "typeValue": "自然景观、地质奇观、阿尔伯塔省景点",
+    "country": "国家",
+    "countryValue": "加拿大",
+    "city": "城市",
+    "cityValue": "德拉姆黑勒，阿尔伯塔省",
+    "googleRating": "谷歌评分",
+    "googleRatingValue": "4.6/5 (5,962)",
+    "phone": "电话",
+    "phoneValue": "+1 403-823-7741",
+    "address": "地址",
+    "addressValue": "Coulee Way, Drumheller, AB T0J 0Y0, Canada"
+  },
+  "hours": {
+    "title": "开放时间",
+    "park": "景区开放",
+    "parkTime": "全年开放，黎明至黄昏",
+    "bestTime": "最佳游览时间",
+    "bestTimeSpring": "春季（5-6月）：气候温和，野花盛开",
+    "bestTimeSummer": "夏季（7-8月）：天气温暖，最适合摄影（早点到达以避开高温）",
+    "bestTimeAutumn": "秋季（9-10月）：气温较凉，美丽的秋色",
+    "bestTimeWinter": "冬季（11-4月）：雪景覆盖，注意保暖，通行可能受限",
+    "tip": "建议查看德拉姆黑勒镇政府网站获取季节性更新"
+  },
+  "tickets": {
+    "title": "门票信息",
+    "park": "景区参观",
+    "parkPrice": "免费参观，无需门票",
+    "parking": "停车信息",
+    "parkingPrice": "现场免费停车",
+    "guided": "导游服务",
+    "guidedPrice": "自助参观。德拉姆黑勒的当地旅行社可能提供导游服务。"
+  },
+  "transport": {
+    "title": "交通方式",
+    "fromCenter": "从德拉姆黑勒市中心出发",
+    "fromCenterDesc": "从德拉姆黑勒市中心驾车约10-15分钟。沿 Hoodoo Trail（10号公路）指示牌行驶。",
+    "fromStation": "从卡尔加里出发",
+    "fromStationDesc": "从卡尔加里驾车约1.5小时，沿2号公路北行，转9号公路东行至德拉姆黑勒。",
+    "fromAirport": "从卡尔加里国际机场（YYC）出发",
+    "fromAirportDesc": "从 YYC 驾车约1.5-2小时。沿2号公路北行，然后沿9号公路东行至德拉姆黑勒，按照指示牌前往 Hoodoo Trail。",
+    "publicTransport": "公共交通",
+    "publicTransportDesc": "公共交通有限。建议在卡尔加里租车或从卡尔加里/德拉姆黑勒参加导游团。",
+    "walking": "步行或骑行",
+    "walkingDesc": "不建议从市中心步行前往，因为距离较远且缺乏专用路径。最好驾车或参加旅游团。",
+    "driving": "自驾与停车",
+    "drivingDesc": "现场有免费停车场。道路铺设完好，所有车辆均可通行。从德拉姆黑勒市中心按照'Hoodoos'指示牌行驶即可到达。"
+  },
+  "route": {
+    "title": "推荐游览路线",
+    "overview": "柳树溪石林非常适合1-2小时的游览。建议您在上午或傍晚到达，以获得最佳光线和较少的人群。计划约1-2小时来探索景点、拍照和阅读解说标志。",
+    "steps": [
+      "从 Coulee Way 的停车场开始",
+      "沿指定步道前往主观景台",
+      "在观景平台拍照",
+      "沿解说步道行走，了解石林的形成",
+      "阅读有关地质和当地历史的教育标志",
+      "探索不同的摄影角度",
+      "参观附近的 Hoodoo Trail，欣赏更多风景",
+      "继续前往德拉姆黑勒的其他景点（皇家蒂雷尔博物馆、恐龙步道）"
+    ]
+  },
+  "photoSpots": {
+    "title": "最佳拍照点",
+    "spots": [
+      {
+        "name": "主观景台",
+        "desc": "拍摄石林，背景是恶地景观"
+      },
+      {
+        "name": "解说步道",
+        "desc": "沿步行道从不同角度拍摄石林"
+      },
+      {
+        "name": "日出/日落景观",
+        "desc": "黄金时段的光线在岩石上创造出戏剧性的阴影和温暖的色调"
+      },
+      {
+        "name": "广角景观拍摄",
+        "desc": "捕捉石林周围加拿大恶地的广阔景象"
+      },
+      {
+        "name": "岩石层特写",
+        "desc": "拍摄详细的沉积岩层，讲述地质故事"
+      }
+    ]
+  },
+  "hotels": {
+    "title": "住宿建议",
+    "hotels": [
+      {
+        "name": "Ramada by Wyndham Drumheller Hotel & Suites",
+        "desc": "德拉姆黑勒的全服务酒店，室内游泳池，靠近所有景点",
+        "price": "约$120-200/晚"
+      },
+      {
+        "name": "Quality Hotel Drumheller",
+        "desc": "经济型酒店，基本设施齐全，距石林10分钟车程",
+        "price": "约$80-150/晚"
+      },
+      {
+        "name": "Dinosaur RV Park & Campground",
+        "desc": "房车和帐篷露营地选择，非常适合家庭",
+        "price": "约$30-60/晚"
+      },
+      {
+        "name": "德拉姆黑勒的 Airbnb",
+        "desc": "德拉姆黑勒镇区的各种度假租赁，体验当地热情好客",
+        "price": "约$80-180/晚"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "精彩照片",
+    "subtitle": "Willow Creek Hoodoos - 德拉姆黑勒，阿尔伯塔省",
+    "captions": [
+      "石林景观 1",
+      "石林景观 2",
+      "石林景观 3",
+      "恶地风景 1",
+      "恶地风景 2",
+      "石林特写 1",
+      "石林特写 2",
+      "观景平台",
+      "解说步道",
+      "石林日落",
+      "岩石层细节",
+      "全景视图",
+      "冬季的石林",
+      "夏季的石林",
+      "恶地景色",
+      "游客区域"
+    ],
+    "viewAll": "在 Google Maps 查看位置",
+    "showAll": "查看全部照片",
+    "showLess": "收起照片"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
+    "moreReviews": "在 Google Maps 查看更多评价",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "date": "2026年5月",
+        "rating": 5,
+        "text": "令人惊叹的自然岩石构造！石林在现实中更加令人印象深刻。步道沿线的教育标志很棒。在德拉姆黑勒游览时的完美一站。"
+      },
+      {
+        "name": "James T.",
+        "date": "2026年4月",
+        "rating": 5,
+        "text": "在德拉姆黑勒必看！景区维护良好，停车方便，步行道也很轻松。解说标志关于石林如何形成的信息非常丰富。"
+      },
+      {
+        "name": "Emily L.",
+        "date": "2026年3月",
+        "rating": 4,
+        "text": "美丽的风景，非常适合摄影。春天来访，天气完美。建议早上早点去，避开人群，获得最佳光线。"
+      },
+      {
+        "name": "Michael R.",
+        "date": "2026年2月",
+        "rating": 5,
+        "text": "迷人的地质景点！免费参观，交通便利。孩子们很喜欢了解这些岩石构造是如何形成的。为我们德拉姆黑勒恐龙之旅的绝佳补充。"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "交通指南",
+    "subtitle": "Coulee Way, Drumheller, AB T0J 0Y0, Canada",
+    "openMaps": "在 Google Maps 查看"
+  },
+  "footer": {
+    "rights": "© 2026 Willow Creek Hoodoos 独立旅游研究协会 · 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "officialResourcesTitle": "相关资源与资讯",
+    "officialLinks": {
+      "drumheller": "德拉姆黑勒镇政府",
+      "albertaParks": "阿尔伯塔省公园局",
+      "travelAlberta": "阿尔伯塔省旅游",
+      "royalTyrrell": "皇家蒂雷尔博物馆",
+      "geologicalSurvey": "加拿大地质调查局"
+    },
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026年5月",
+    "sections": [
+      {
+        "heading": "1. 信息收集",
+        "content": "我们通常不会主动收集用户的个人可识别信息。您透过联系表单或电子邮件提供的任何信息将被严格保密。"
+      },
+      {
+        "heading": "2. 信息使用",
+        "content": "我们收集的信息仅用于提供、维护和改进我们的服务，以及与您沟通。我们不会将您的个人信息出售或分享给第三方用于营销目的。"
+      },
+      {
+        "heading": "3. Cookie 与追踪技术",
+        "content": "我们使用 Cookie 和类似的追踪技术来追踪我们网站上的活动并保存某些信息。您可以指示您的浏览器拒绝所有 Cookie 或在发送 Cookie 时进行提示。"
+      },
+      {
+        "heading": "4. 数据安全",
+        "content": "您数据的安全性对我们很重要。我们努力使用商业上可接受的方式来保护您的个人数据，但任何互联网传输方法都无法保证100%安全。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026年5月",
+    "sections": [
+      {
+        "heading": "1. 接受条款",
+        "content": "通过访问和使用本网站，您同意受这些服务条款的约束。如果您不同意条款的任何部分，则不得访问该服务。"
+      },
+      {
+        "heading": "2. 服务使用",
+        "content": "本网站是一个独立的第三方旅游资讯项目。提供的信息仅供一般参考。您同意负责任且合法地使用本网站。"
+      },
+      {
+        "heading": "3. 知识产权",
+        "content": "本网站上的所有内容（包括文本、图像和徽标）均为网站所有者的财产（另有说明的除外）。严禁未经授权的使用、复制或分发。"
+      },
+      {
+        "heading": "4. 责任限制",
+        "content": "对于因使用或无法使用本网站或其中包含的信息而导致的任何直接、间接、附带或后果性损害，我们概不负责。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "管理您的 Cookie 偏好设置。",
+    "essential": {
+      "title": "必要的 Cookie",
+      "description": "网站基本功能所需。",
+      "badge": "始终启用"
+    },
+    "analytics": {
+      "title": "分析 Cookie",
+      "description": "帮助我们了解访客如何与网站互动。"
+    },
+    "marketing": {
+      "title": "营销 Cookie",
+      "description": "用于跨网站追踪访客。"
+    },
+    "save": "保存设置",
+    "saved": "设置已保存！"
+  },
+  "officialManagement": {
+    "title": "关于 Willow Creek Hoodoos",
+    "text": "Willow Creek Hoodoos（柳树溪石林）是位于加拿大阿尔伯塔省德拉姆黑勒市附近的一处壮观的自然景观。这一自然地标拥有独特的石林（Hoodoo）地貌，由数百年的侵蚀和风化作用形成。\n\n石林（Hoodoo）是从地面拔地而起的细长岩石尖塔，由沉积岩的差异性侵蚀形成。这些迷人的地质结构是好几千年自然力量塑造地貌的结果。\n\n位于加拿大恶地（Canadian Badlands）心脏地带的 Coulee Way 沿线，柳树溪石林为游客提供了近距离观察这些令人难以置信的自然雕塑的机会，并了解阿尔伯塔省草原地区的地质历史。"
+  },
+  "recommendations": {
+    "title": "",
+    "attractionsTitle": "",
+    "toursTitle": "",
+    "attractions": [],
+    "tours": []
+  }
+}
