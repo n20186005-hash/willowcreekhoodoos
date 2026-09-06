@@ -3,37 +3,36 @@
 import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photos = [
-  { src: '/gallery/willow-creek-hoodoos (1).jpg', alt: 'Willow Creek Hoodoos 照片 1' },
-  { src: '/gallery/willow-creek-hoodoos (2).jpg', alt: 'Willow Creek Hoodoos 照片 2' },
-  { src: '/gallery/willow-creek-hoodoos (3).jpg', alt: 'Willow Creek Hoodoos 照片 3' },
-  { src: '/gallery/willow-creek-hoodoos (4).jpg', alt: 'Willow Creek Hoodoos 照片 4' },
-  { src: '/gallery/willow-creek-hoodoos (5).jpg', alt: 'Willow Creek Hoodoos 照片 5' },
-  { src: '/gallery/willow-creek-hoodoos (6).jpg', alt: 'Willow Creek Hoodoos 照片 6' },
-  { src: '/gallery/willow-creek-hoodoos (7).jpg', alt: 'Willow Creek Hoodoos 照片 7' },
-  { src: '/gallery/willow-creek-hoodoos (8).jpg', alt: 'Willow Creek Hoodoos 照片 8' },
-  { src: '/gallery/willow-creek-hoodoos (9).jpg', alt: 'Willow Creek Hoodoos 照片 9' },
-  { src: '/gallery/willow-creek-hoodoos (10).jpg', alt: 'Willow Creek Hoodoos 照片 10' },
-  { src: '/gallery/willow-creek-hoodoos (11).jpg', alt: 'Willow Creek Hoodoos 照片 11' },
-  { src: '/gallery/willow-creek-hoodoos (12).jpg', alt: 'Willow Creek Hoodoos 照片 12' },
-  { src: '/gallery/willow-creek-hoodoos (13).jpg', alt: 'Willow Creek Hoodoos 照片 13' },
-  { src: '/gallery/willow-creek-hoodoos (14).jpg', alt: 'Willow Creek Hoodoos 照片 14' },
-  { src: '/gallery/willow-creek-hoodoos (15).jpg', alt: 'Willow Creek Hoodoos 照片 15' },
-];
+type Photo = { src: string; alt: string };
+
+const photoCount = 15;
+
+const photoSrcs = Array.from(
+  { length: photoCount },
+  (_, i) => `/gallery/willow-creek-hoodoos-${i + 1}.jpg`,
+);
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const messages = useMessages() as any;
+  const captions: string[] = messages?.gallery?.captions || [];
+
+  const photos: Photo[] = photoSrcs.map((src, i) => ({
+    src,
+    alt: captions[i] || `Willow Creek Hoodoos - photo ${i + 1} in Drumheller, Alberta, Canada`,
+  }));
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [showAll, setShowAll] = useState(false);
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
-  }, []);
+  }, [photos.length]);
 
   const goToNext = useCallback(() => {
     setCurrentIndex((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
-  }, []);
+  }, [photos.length]);
 
   const openLightbox = () => setIsLightboxOpen(true);
   const closeLightbox = () => setIsLightboxOpen(false);
@@ -101,34 +100,44 @@ export default function Gallery() {
               </>
             )}
 
-            <div className="flex justify-center mt-6 gap-4 items-center">
-              {!showAll && photos.length > 8 && (
-                <button
-                  onClick={() => setShowAll(true)}
-                  className="text-sm hover:underline font-medium"
+            <div className="flex flex-col items-center mt-6 gap-3">
+              <div className="flex flex-wrap gap-4 items-center justify-center">
+                {!showAll && photos.length > 8 && (
+                  <button
+                    onClick={() => setShowAll(true)}
+                    className="text-sm hover:underline font-medium"
+                    style={{ color: 'var(--accent)' }}
+                  >
+                    {t('showAll') || `View All ${photos.length} Photos`}
+                  </button>
+                )}
+                {showAll && (
+                  <button
+                    onClick={() => setShowAll(false)}
+                    className="text-sm hover:underline font-medium"
+                    style={{ color: 'var(--accent)' }}
+                  >
+                    {t('showLess') || 'Show Less'}
+                  </button>
+                )}
+                <a
+                  href="https://maps.app.goo.gl/zbAfMgVchpXzbtH88"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:underline"
                   style={{ color: 'var(--accent)' }}
                 >
-                  {t('showAll') || `View All ${photos.length} Photos`}
-                </button>
-              )}
-              {showAll && (
-                <button
-                  onClick={() => setShowAll(false)}
-                  className="text-sm hover:underline font-medium"
-                  style={{ color: 'var(--accent)' }}
+                  {t('viewAll')}
+                </a>
+              </div>
+              {t.has('copyright') && (
+                <p
+                  className="text-xs max-w-3xl text-center leading-relaxed"
+                  style={{ color: 'var(--text-muted)' }}
                 >
-                  {t('showLess') || 'Show Less'}
-                </button>
+                  {t('copyright')}
+                </p>
               )}
-              <a
-                href="https://maps.app.goo.gl/zbAfMgVchpXzbtH88"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm hover:underline"
-                style={{ color: 'var(--accent)' }}
-              >
-                {t('viewAll')}
-              </a>
             </div>
           </div>
         </div>

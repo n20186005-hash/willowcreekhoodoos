@@ -4,7 +4,7 @@ import { useLocale } from 'next-intl';
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
-  const prefix = locale === 'en' ? '' : `/${locale}`;
+  const prefix = `/${locale}`;
 
   return (
     <footer
@@ -38,16 +38,25 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
-            <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
-              {t('privacy')}
+          <div className="flex flex-col items-start gap-2 text-sm mt-4 sm:mt-0">
+            <p className="font-medium" style={{ color: 'var(--text-secondary)' }}>{t('guidesTitle')}</p>
+            <a href={`${prefix}/drumheller-day-trip`} className="hover:underline" style={{ color: 'var(--accent)' }}>
+              {t('dayTripGuide')}
             </a>
-            <a href={`${prefix}/terms-of-service`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
-              {t('terms')}
+            <a href={`${prefix}/food-and-services`} className="hover:underline" style={{ color: 'var(--accent)' }}>
+              {t('foodGuide')}
             </a>
-            <a href={`${prefix}/cookie-settings`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
-              {t('cookies')}
-            </a>
+            <div className="flex flex-wrap gap-4 pt-2">
+              <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
+                {t('privacy')}
+              </a>
+              <a href={`${prefix}/terms-of-service`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
+                {t('terms')}
+              </a>
+              <a href={`${prefix}/cookie-settings`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
+                {t('cookies')}
+              </a>
+            </div>
           </div>
         </div>
 
@@ -57,6 +66,7 @@ export default function Footer() {
         >
           <p>{t('rights')}</p>
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
+          <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('imageCopyright')}</p>
         </div>
       </div>
     </footer>

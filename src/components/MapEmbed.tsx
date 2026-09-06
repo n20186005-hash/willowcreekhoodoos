@@ -1,7 +1,10 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
+import { ATTRACTION } from '@/lib/seo';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
+  const messages = useMessages() as any;
+  const landmarkList: string[] = messages?.mapSection?.landmarkList || [];
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -12,34 +15,56 @@ export default function MapEmbed() {
         >
           {t('title')}
         </h2>
-        <p className="mb-8 text-sm" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
-        <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
+        <p className="mb-6 text-sm" style={{ color: 'var(--text-muted)' }}>
+          {t('subtitle')}
+        </p>
+        <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
+
+        {/* Nearby landmarks semantic cluster (entity-anchored) */}
+        {t.has('landmarkIntro') && (
+          <div className="mb-6">
+            <p
+              className="text-base leading-relaxed"
+              style={{ color: 'var(--text-secondary)' }}
+            >
+              {t('landmarkIntro')}
+            </p>
+            {landmarkList.length > 0 && (
+              <ul className="mt-3 flex flex-wrap gap-2">
+                {landmarkList.map((landmark, i) => (
+                  <li
+                    key={i}
+                    className="text-xs px-3 py-1 rounded-full"
+                    style={{ background: 'var(--tag-bg)', color: 'var(--tag-text)' }}
+                  >
+                    {landmark}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
 
         {/* Map */}
         <div
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/*
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
-            src="https://maps.google.com/maps?q=Willow+Creek+Hoodoos+Drumheller+AB&output=embed"
+            src={ATTRACTION.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Willow Creek Hoodoos"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="Google Maps - Willow Creek Hoodoos, Drumheller, Alberta, Canada"
           />
         </div>
 
-        {/* Open in Google Maps */}
-        <div className="mt-6 flex justify-center">
+        <div className="mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
           <a
-            href="https://maps.app.goo.gl/zbAfMgVchpXzbtH88"
+            href={ATTRACTION.mapsShareUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
@@ -50,6 +75,29 @@ export default function MapEmbed() {
               <circle cx="12" cy="10" r="3" />
             </svg>
             {t('openMaps')}
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+
+          <a
+            href={ATTRACTION.officialTourismUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-colors"
+            style={{
+              color: 'var(--accent)',
+              border: '1px solid var(--accent)',
+            }}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+            {t('tourismPortalLabel')}
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
               <polyline points="15 3 21 3 21 9" />

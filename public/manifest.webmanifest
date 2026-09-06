@@ -1,0 +1,36 @@
+{
+  "name": "Willow Creek Hoodoos (Drumheller) — Visitor Guide",
+  "short_name": "Willow Creek Hoodoos",
+  "description": "Independent visitor guide to Willow Creek Hoodoos, the iconic sandstone hoodoo formation near Drumheller, Alberta, Canada.",
+  "start_url": "/zh",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "zh",
+  "dir": "ltr",
+  "background_color": "#faf8f4",
+  "theme_color": "#234d5c",
+  "categories": ["travel", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View on Google Maps",
+      "short_name": "Maps",
+      "url": "https://maps.app.goo.gl/zbAfMgVchpXzbtH88",
+      "description": "Open Willow Creek Hoodoos directly in Google Maps."
+    }
+  ]
+}

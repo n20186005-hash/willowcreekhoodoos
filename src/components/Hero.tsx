@@ -8,8 +8,8 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/willow-creek-hoodoos (1).jpg"
-          alt="Willow Creek Hoodoos"
+          src="/gallery/willow-creek-hoodoos-1.jpg"
+          alt="Willow Creek Hoodoos - Main view in Drumheller, Alberta, Canada"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />

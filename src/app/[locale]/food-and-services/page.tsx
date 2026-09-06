@@ -1,6 +1,10 @@
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
+import { SITE_ORIGIN } from '@/lib/seo';
+import Footer from '@/components/Footer';
+
+const SLUG = 'food-and-services';
 
 export async function generateMetadata({
   params,
@@ -8,12 +12,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://willowcreekhoodoos.com';
-  const zhUrl = `${baseUrl}/zh/terms-of-service`;
-  const enUrl = `${baseUrl}/en/terms-of-service`;
+  const messages = (await import(`@/messages/${locale}.json`)).default;
+  const zhUrl = `${SITE_ORIGIN}/zh/${SLUG}`;
+  const enUrl = `${SITE_ORIGIN}/en/${SLUG}`;
   const selfUrl = locale === 'zh' ? zhUrl : enUrl;
+  const ns = messages?.foodAndServices?.meta;
 
   return {
+    title: ns?.title ?? messages?.meta?.title,
+    description: ns?.description ?? messages?.meta?.description,
     alternates: {
       canonical: selfUrl,
       languages: {
@@ -22,20 +29,28 @@ export async function generateMetadata({
         'x-default': enUrl,
       },
     },
+    openGraph: {
+      title: ns?.title ?? messages?.meta?.title,
+      description: ns?.description ?? messages?.meta?.description,
+      url: selfUrl,
+    },
   };
 }
 
-function TermsContent() {
-  const t = useTranslations('terms');
+function FoodServicesContent() {
+  const t = useTranslations('foodAndServices');
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
   const homeHref = `/${locale}`;
-  const sections = (messages?.terms?.sections || []) as Array<{ heading: string; content: string }>;
+  const sections = (messages?.foodAndServices?.sections || []) as Array<{
+    heading: string;
+    paragraphs: string[];
+  }>;
 
   return (
-    <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
+    <div className="min-h-screen flex flex-col" style={{ background: 'var(--bg-primary)' }}>
+      <div className="flex-1 max-w-3xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
         <a
           href={homeHref}
           className="inline-flex items-center gap-2 text-sm font-medium mb-10 transition-colors"
@@ -48,10 +63,12 @@ function TermsContent() {
           {ht('backToHome')}
         </a>
 
-        <h1 className="font-display text-3xl sm:text-4xl font-bold mb-2" style={{ color: 'var(--text-primary)' }}>
-          {t('title')}
+        <h1 className="font-display text-3xl sm:text-4xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
+          {t('pageTitle')}
         </h1>
-        <p className="text-sm mb-10" style={{ color: 'var(--text-muted)' }}>{t('lastUpdated')}</p>
+        <p className="leading-relaxed mb-10" style={{ color: 'var(--text-secondary)' }}>
+          {t('standfirst')}
+        </p>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
         <div className="space-y-8">
@@ -60,23 +77,26 @@ function TermsContent() {
               <h2 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
                 {section.heading}
               </h2>
-              <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                {section.content}
-              </p>
+              {section.paragraphs.map((paragraph, j) => (
+                <p key={j} className="leading-relaxed mb-3" style={{ color: 'var(--text-secondary)' }}>
+                  {paragraph}
+                </p>
+              ))}
             </div>
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
 
-export default async function TermsPage({
+export default async function FoodServicesPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <TermsContent />;
+  return <FoodServicesContent />;
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Willow Creek Hoodoos 柳树溪石柱｜德拉姆黑勒必游景点",
-    "description": "探索加拿大阿尔伯塔省德拉姆黑勒市 Willow Creek Hoodoos 的完整指南。了解这一自然景观、地理位置和游览信息。发现独特的石林地貌。"
+    "title": "Willow Creek Hoodoos（德拉姆黑勒）- 2026 游客指南、步道与停车信息",
+    "description": "为你的 2026 年德拉姆黑勒之行做准备：Willow Creek Hoodoos 免费全年开放，可在 Coulee Way 免费停车，轻松走完 1-2 公里石林步道并拍到满意照片，距皇家蒂雷尔古生物博物馆仅数分钟车程。"
   },
   "header": {
     "home": "首页",
@@ -11,15 +11,23 @@
     "backToHome": "返回首页"
   },
   "hero": {
-    "title": "Willow Creek Hoodoos",
-    "subtitle": "天然石林奇观 - 德拉姆黑勒的独特地质景观",
-    "rating": "4.6(5,962)",
-    "reviewCount": "5,962 条评价",
+    "title": "Willow Creek Hoodoos（德拉姆黑勒）",
+    "subtitle": "天然石柱奇观 - 加拿大恶地中的标志性砂岩石柱",
+    "rating": "4.6",
+    "reviewCount": "6,542 条 Google 评价",
     "type": "自然景观 · 阿尔伯塔省必游",
     "openMaps": "查看位置"
   },
   "intro": {
     "title": "探索 Willow Creek Hoodoos",
+    "entityIntro": "欢迎来到 Willow Creek Hoodoos（德拉姆黑勒）——加拿大艾伯塔省恶地中标志性的天然石柱奇观。位于阿尔伯塔省德拉姆黑勒市中心，这处景点是游览德拉姆黑勒河谷与整个加拿大恶地的必经一站。",
+    "breadcrumbLabel": "地理归属",
+    "breadcrumbItems": [
+      "Willow Creek Hoodoos",
+      "德拉姆黑勒",
+      "阿尔伯塔省",
+      "加拿大"
+    ],
     "description": "Willow Creek Hoodoos（柳树溪石柱）是位于加拿大阿尔伯塔省德拉姆黑勒市附近的一处壮观的自然景观。这一自然地标拥有独特的石林（Hoodoo）地貌，由数百年的侵蚀和风化作用形成。\n\n石林（Hoodoo）是从地面拔地而起的细长岩石尖塔，由沉积岩的差异性侵蚀形成。这些迷人的地质结构是好几千年自然力量塑造地貌的结果。\n\n柳树溪石林位于加拿大恶地（Canadian Badlands）心脏地带的 Coulee Way 沿线，为游客提供了近距离观察这些令人难以置信的自然雕塑的机会，并了解阿尔伯塔省草原地区的地质历史。",
     "visitGuide": {
       "title": "游览建议",
@@ -40,37 +48,60 @@
         "了解地质学和侵蚀作用的绝佳教育机会",
         "探索德拉姆黑勒恐龙之乡的完美一站"
       ]
-    }
+    },
+    "nearbyTitle": "Willow Creek Hoodoos 周边地标与景点",
+    "nearbyIntro": "游览 Willow Creek Hoodoos 时，游客可轻松探索周边的历史地标和景点，包括皇家蒂雷尔古生物博物馆（Roya Tyrrell Museum）和 Hoodoo Trail。"
   },
   "knowledge": {
     "title": "关于 Willow Creek Hoodoos",
+    "subtitle": "面向大众的地质、历史与传说科普——由独立的非营利科普项目撰写，力求严谨而通俗。",
     "sections": [
       {
         "id": "geology",
-        "title": "地质形成",
-        "content": "石林（Hoodoo）是通过一种称为差异性侵蚀的过程形成的。每个石林的顶部通常有一个较硬的岩石层，保护其下方的较软沉积岩免受侵蚀。数千年来，风和水逐渐磨损周围的岩石，留下这些高大细长的尖塔。\n\n柳树溪石林形成于大约12,000年前的最后一个冰河时代。石林中可见的沉积岩层讲述了塑造这一地区的古代河流系统和冰川活动。"
+        "title": "地质成因 — 6800万至7200万年前的岩石",
+        "content": "Willow Creek Hoodoos 的石柱雕刻自马蹄峡谷组（Horseshoe Canyon Formation）地层，这是约 6800 万至 7200 万年前白垩纪晚期沉积的河流冲积物。当时德拉姆黑勒位于一片内陆海边缘的温暖冲积平原上：洪水带来层层泥沙，沼泽变成薄薄的煤层，被掩埋的河道则硬化成今天所见的砂岩。\n\n细看一座石柱，你其实在阅读一个早已消失世界的垂直剖面——每一层岩带都对应一次远古洪水。岩石本身也许已有 7000 万年历史，但优雅的尖塔造型要年轻得多，是最近数千年间才由冰、风与水雕琢而成。"
+      },
+      {
+        "id": "hoodooScience",
+        "title": "石柱如何形成 — 岩帽、冻融与流水",
+        "content": "每座石柱都始于一块岩帽。一层较坚硬的耐蚀岩——通常是含铁胶结的砂岩——像雨伞一样罩在柱顶，保护下方较软的泥岩与粉砂岩柱身。雨水与融雪沿帽檐滑落，而风携砂粒与反复的冻融作用不断磨蚀暴露的柱身，使它一年比一年纤细。\n\n地质学家称之为差异性侵蚀，它塑造出上宽下窄的经典石柱剪影。阿尔伯塔的冬天在这里扮演关键角色：渗入裂缝的水结冰时体积膨胀，像楔子一样把岩石撑裂。当岩帽悬挑过远终于断裂坠落后，失去保护伞的柱身很快就会被侵蚀殆尽。石柱在人类可感知的时间尺度上诞生、老去与倒塌——每一代人所见的风景都在变化。"
+      },
+      {
+        "id": "iceAge",
+        "title": "冰川雕刻的年轻地貌",
+        "content": "尽管基岩已有数千万年历史，Willow Creek Hoodoos 周围的山谷却相当年轻。末次冰期时，劳伦泰冰盖覆盖了阿尔伯塔大部分地区；约 1.2 万至 1.6 万年前冰盖退缩，融水洪流在平原上切出幽深的谷壑与 Willow Creek 河谷。\n\n因此这片恶地既古老又躁动：裸露的砂岩可能在一次暴洪中就损失数厘米，每年春融都在重塑山坡。站在观景台，你正置身于一片仍在形成中的地貌之中。"
       },
       {
         "id": "location",
         "title": "地理位置与交通",
-        "content": "柳树溪石林位于阿尔伯塔省德拉姆黑勒市的 Coulee Way 沿线。该景点可轻松驾车到达，现场有停车场。坐标约为北纬51.4658°，西经112.6939°。\n\n德拉姆黑勒被称为'世界恐龙之都'，位于卡尔加里东北约135公里处。石林是该地区众多自然景点之一，旁边还有皇家蒂雷尔博物馆和恐龙省立公园。"
+        "content": "Willow Creek Hoodoos 位于加拿大阿尔伯塔省德拉姆黑勒市的 Coulee Way 沿线。该景点可轻松驾车到达，Coulee Way 沿线有免费现场停车。坐标约为北纬 51.3806°，西经 112.5342°（Google Maps Plus Code 9FJ8+78 Drumheller, Alberta, Canada）。\n\n德拉姆黑勒被称为'世界恐龙之都'，位于卡尔加里东北约 135 公里处。石柱是该地区众多自然景点之一，附近还有皇家蒂雷尔古生物博物馆、Hoodoo Trail 和恐龙省立公园。"
       },
       {
-        "id": "history",
-        "title": "文化意义",
-        "content": "柳树溪石林所在的土地是土著民族数千年的家园。黑脚联盟（包括 Siksika、Kainai 和 Piikani 民族）与这片土地有着深厚的联系。\n\n这些独特的岩石构造长期以来一直是土著民族和后来的欧洲定居者关注的对象。今天，该地点作为关于地质学、自然历史和加拿大草原文化遗产的重要教育资源。"
+        "id": "dinosaurs",
+        "title": "恐龙之乡 — 遍地化石",
+        "content": "Willow Creek Hoodoos 周边的谷壑切割着世界上最富集的含恐龙化石地层之一。白垩纪晚期，这片河畔平原生机盎然，造就石柱的同一批沉积物也掩埋了无数生灵。德拉姆黑勒的地层出土了鸭嘴龙类、甲龙类以及掠食性的艾伯塔龙（Albertosaurus）——以本省命名的'艾伯塔蜥蜴'。\n\n正是这份化石财富让德拉姆黑勒赢得'世界恐龙之都'的美誉。驱车不远的皇家蒂雷尔古生物博物馆展出这些地层中出土的骨架，其户外展陈与科普活动能帮助你理解环绕石柱的恶地地貌。如果你看到疑似化石，请留在原处并告知博物馆：恶地中的每一块化石都是受保护的科研记录。"
+      },
+      {
+        "id": "heritage",
+        "title": "原住民遗产与煤矿小镇时代",
+        "content": "德拉姆黑勒河谷地处尼西塔皮（黑脚族）民族——Siksika、Kainai 与 Piikani——的传统领地，Stoney Nakoda、Tsuut'ina 与梅蒂斯等原住民族也世代在这片谷地穿行。石柱曾是地标与营地，其意义至今仍留存于口述传统之中。\n\n1880 年代铁路通车后，德拉姆黑勒厚实的煤层把这个河谷变成加拿大最繁忙的矿业城镇之一，吸引了来自欧洲各国以及加拿大华人社区的矿工。煤矿于 1970 年代陆续关闭，但铁路小镇、博物馆与生态修复步道仍在讲述这段历史。Willow Creek Hoodoos 与德拉姆黑勒镇政府及阿尔伯塔省公园局共同守护着这份共享遗产。"
+      },
+      {
+        "id": "folklore",
+        "title": "传说、民俗与'Hoodoo'之名",
+        "content": "哪里有石柱，哪里就有故事。北美大平原的多种原住民口述传统把石柱描述为石化了的巨人或精灵——在某些版本中，远古的先民化为石头，至今仍守望河谷。后来的定居者看到暮色中摇曳的剪影，便称它们为'帐篷岩'，并在篝火旁流传着石柱会在夜里悄悄走动的故事。\n\n英文单词 'hoodoo' 于 19 世纪随英语使用者西传，源自与 'voodoo' 相关的民间用语，被用来形容美加西部那些透着神秘气息的岩塔。传说各不相同，但有一点不谋而合：Willow Creek Hoodoos 仿佛有生命，每一位游客都应心怀敬意。"
       },
       {
         "id": "conservation",
-        "title": "保护 efforts",
-        "content": "石林是脆弱的自然结构，可能被人类活动破坏。严禁攀爬或触摸石林，以为后代保护这些地质奇观。\n\n游客被要求留在指定路径上并尊重所有标志。德拉姆黑勒镇和阿尔伯塔省公园局共同维护该地点，并教育游客保护这些独特自然构造的重要性。"
+        "title": "保护与无痕游览",
+        "content": "石柱是脆弱的自然结构，可能被人类活动破坏。严禁攀爬或触摸石柱，以为后代保护这些地质奇观。\n\n游客应留在指定步道上并尊重所有标识。德拉姆黑勒镇政府与阿尔伯塔省公园局共同维护该地点，并教育游客认识保护 Willow Creek Hoodoos 这一独特自然构造的重要性。"
       }
     ]
   },
   "basicInfo": {
     "title": "基础信息",
     "officialName": "正式名称",
-    "officialNameValue": "Willow Creek Hoodoos（柳树溪石林）",
+    "officialNameValue": "Willow Creek Hoodoos（德拉姆黑勒，阿尔伯塔省）",
     "type": "景点类型",
     "typeValue": "自然景观、地质奇观、阿尔伯塔省景点",
     "country": "国家",
@@ -78,11 +109,13 @@
     "city": "城市",
     "cityValue": "德拉姆黑勒，阿尔伯塔省",
     "googleRating": "谷歌评分",
-    "googleRatingValue": "4.6/5 (5,962)",
+    "googleRatingValue": "4.6/5 (6,542)",
     "phone": "电话",
     "phoneValue": "+1 403-823-7741",
     "address": "地址",
-    "addressValue": "Coulee Way, Drumheller, AB T0J 0Y0, Canada"
+    "addressValue": "Coulee Way, Drumheller, AB T0J 0Y0, Canada",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "9FJ8+78 Drumheller, Alberta"
   },
   "hours": {
     "title": "开放时间",
@@ -185,45 +218,46 @@
   },
   "gallery": {
     "title": "精彩照片",
-    "subtitle": "Willow Creek Hoodoos - 德拉姆黑勒，阿尔伯塔省",
+    "subtitle": "Willow Creek Hoodoos - 阿尔伯塔省德拉姆黑勒砂岩石柱",
     "captions": [
-      "石林景观 1",
-      "石林景观 2",
-      "石林景观 3",
-      "恶地风景 1",
-      "恶地风景 2",
-      "石林特写 1",
-      "石林特写 2",
-      "观景平台",
-      "解说步道",
-      "石林日落",
-      "岩石层细节",
-      "全景视图",
-      "冬季的石林",
-      "夏季的石林",
-      "恶地景色",
-      "游客区域"
+      "Willow Creek Hoodoos - 德拉姆黑勒主景",
+      "Willow Creek Hoodoos 石林顶部细节",
+      "Willow Creek Hoodoos 砂岩石柱",
+      "Willow Creek Hoodoos 周边恶地景观",
+      "Willow Creek Hoodoos 解说步道",
+      "石柱特写",
+      "被侵蚀的岩柱",
+      "Willow Creek Hoodoos 观景平台",
+      "Willow Creek Hoodoos 解说步道",
+      "德拉姆黑勒 Willow Creek Hoodoos 日落",
+      "Willow Creek Hoodoos 沉积岩层",
+      "Willow Creek Hoodoos 与恶地全景",
+      "Willow Creek Hoodoos 冬季景色",
+      "Willow Creek Hoodoos 夏季天空",
+      "Willow Creek Hoodoos 游客区域",
+      "Coulee Way 通往 Willow Creek Hoodoos"
     ],
     "viewAll": "在 Google Maps 查看位置",
     "showAll": "查看全部照片",
-    "showLess": "收起照片"
+    "showLess": "收起照片",
+    "copyright": "本图库展示的所有照片版权归原摄影者所有，受版权保护。"
   },
   "reviews": {
     "title": "游客评价",
-    "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
+    "declaration": "Willow Creek Hoodoos 的游客评价可在 Google Maps 上查看（外部链接）。",
     "moreReviews": "在 Google Maps 查看更多评价",
     "items": [
       {
         "name": "Sarah M.",
         "date": "2026年5月",
         "rating": 5,
-        "text": "令人惊叹的自然岩石构造！石林在现实中更加令人印象深刻。步道沿线的教育标志很棒。在德拉姆黑勒游览时的完美一站。"
+        "text": "令人惊叹的自然岩石构造！Willow Creek Hoodoos 在现实中更加令人印象深刻。步道沿线的教育标志很棒。在德拉姆黑勒游览皇家蒂雷尔博物馆时的完美一站。"
       },
       {
         "name": "James T.",
         "date": "2026年4月",
         "rating": 5,
-        "text": "在德拉姆黑勒必看！景区维护良好，停车方便，步行道也很轻松。解说标志关于石林如何形成的信息非常丰富。"
+        "text": "在德拉姆黑勒必看！景区维护良好，停车方便，步行道也很轻松。解说标志关于 Willow Creek Hoodoos 如何形成的信息非常丰富。"
       },
       {
         "name": "Emily L.",
@@ -240,15 +274,351 @@
     ]
   },
   "mapSection": {
-    "title": "交通指南",
-    "subtitle": "Coulee Way, Drumheller, AB T0J 0Y0, Canada",
-    "openMaps": "在 Google Maps 查看"
+    "title": "Willow Creek Hoodoos 的位置与游览方式",
+    "subtitle": "Coulee Way, Drumheller, AB T0J 0Y0 — Plus Code 9FJ8+78 Drumheller, Alberta, Canada",
+    "landmarkIntro": "游览 Willow Creek Hoodoos 时，游客可轻松探索周边的历史地标与景点，包括皇家蒂雷尔古生物博物馆（Roya Tyrrell Museum）和 Hoodoo Trail。",
+    "landmarkList": [
+      "皇家蒂雷尔古生物博物馆",
+      "Hoodoo Trail",
+      "马蹄铁峡谷 Horseshoe Canyon",
+      "Atlas Coal Mine 国家 Historic Site"
+    ],
+    "openMaps": "在 Google Maps 查看",
+    "tourismPortalLabel": "加拿大 / 阿尔伯塔省官方旅游门户"
+  },
+  "faq": {
+    "title": "Willow Creek Hoodoos 常见问题",
+    "subtitle": "关于游览 Willow Creek Hoodoos（德拉姆黑勒，阿尔伯塔省）的最常见问题解答。",
+    "items": [
+      {
+        "question": "阿尔伯塔省的 Hoodoos 是什么？",
+        "answer": "阿尔伯塔省的 Hoodoos（石林）是一种高而细长的砂岩柱，顶部顶着更坚硬的岩帽。数百万年来，风与流水不断侵蚀岩帽下方较松软的砂岩，最终留下这一奇幻地貌。位于德拉姆黑勒附近加拿大恶地中的 Willow Creek Hoodoos，是该地貌最上镜的观赏点之一。"
+      },
+      {
+        "question": "Willow Creek Hoodoos 的石柱是如何形成的？",
+        "answer": "Willow Creek Hoodoos 的地层源自约 7000 万年前在古河谷中层层沉积的砂岩。在漫长岁月中，顶部较硬的岩帽阻挡了风化侵蚀，下方较松软的砂岩则逐渐被风与流水削去，最终形成今日看到的蘑菇状石柱。"
+      },
+      {
+        "question": "Willow Creek Hoodoos 在哪里？",
+        "answer": "Willow Creek Hoodoos 位于加拿大阿尔伯塔省德拉姆黑勒市的 Coulee Way 沿线（Google Maps Plus Code 9FJ8+78 Drumheller, Alberta），地处加拿大恶地中心。地理坐标约为北纬 51.3806°，西经 112.5342°。"
+      },
+      {
+        "question": "Willow Creek Hoodoos 免费吗？",
+        "answer": "是的。Willow Creek Hoodoos 是一处公共自然景观，全年免费开放。游客可从黎明到黄昏沿解说步道漫步，零门票、无入场费。"
+      },
+      {
+        "question": "Willow Creek Hoodoos 的徒步路线有多长？难度如何？",
+        "answer": "Willow Creek Hoodoos 的徒步路线是一条约 1–2 公里的家庭友好型短环线。计划 60–90 分钟完成游览、拍照和阅读解说牌。由于地形不平整，建议穿着结实的步行鞋。"
+      },
+      {
+        "question": "什么时间游览 Willow Creek Hoodoos 最好？",
+        "answer": "每年 5月至10月 是最佳窗口，日出与日落时段的光线最适合拍摄砂岩石柱。冬季也可以游览，但需注意保暖；雪后戴着'石帽'的石林格外上镜。"
+      },
+      {
+        "question": "Willow Creek Hoodoos 周边还有哪些景点？",
+        "answer": "从 Willow Creek Hoodoos 出发，可便捷抵达皇家蒂雷尔古生物博物馆，驾车游览著名的 Hoodoo Trail，徒步 Horseshoe Canyon，或沿 Dinosaur Trail 继续前往 Atlas Coal Mine 国家历史遗址——全部都在德拉姆黑勒 30 分钟车程内。"
+      },
+      {
+        "question": "可以攀爬石柱或带走岩石吗？",
+        "answer": "不可以。严禁攀爬石柱、捡拾岩石或离开指定步道，以保护脆弱的砂岩构造。Willow Creek Hoodoos 由德拉姆黑勒镇政府与阿尔伯塔省公园局共同管理。"
+      },
+      {
+        "question": "Willow Creek Hoodoos 在哪里停车？",
+        "answer": "Coulee Way 沿线设有免费现场停车区，紧邻 Willow Creek Hoodoos 的步道入口，可停放轿车、房车及旅游巴士。"
+      },
+      {
+        "question": "Willow Creek Hoodoos 附近有洗手间吗？",
+        "answer": "Willow Creek Hoodoos 步道起点本身不设永久性公共洗手间。最近的公共设施位于德拉姆黑勒镇中心，以及从镇上前往景区沿途的游客服务点。建议出发前安排好如厕站点，再进入步道。"
+      },
+      {
+        "question": "Willow Creek Hoodoos 附近在哪里用餐、加油和住宿？",
+        "answer": "驾车约 10-15 分钟的德拉姆黑勒镇中心按类型提供各类服务：家庭餐厅、咖啡馆与快餐；超市与便利店；酒店、汽车旅馆、民宿及房车营地；还有加油站与电动汽车充电桩。作为非营利科普指南，我们仅描述服务类型、不推荐任何具体商户——出发前请自行核实营业时间与供应情况。"
+      }
+    ]
+  },
+  "sources": {
+    "title": "资料来源与参考",
+    "description": "本 Willow Creek Hoodoos 游客指南所参考的权威来源，包括官方景点网站、Google Maps 商业页面、皇家蒂雷尔博物馆、阿尔伯塔省旅游局以及阿尔伯塔省政府公开数据。",
+    "items": [
+      {
+        "name": "Willow Creek Hoodoos（官方网站）",
+        "url": "https://www.willowcreekhoodoos.com/",
+        "description": "Willow Creek Hoodoos 自然景观的官方项目网站，提供游客信息、坐标以及官方 Google Maps Plus Code。"
+      },
+      {
+        "name": "Google Maps — Willow Creek Hoodoos",
+        "url": "https://maps.app.goo.gl/zbAfMgVchpXzbtH88",
+        "description": "阿尔伯塔省德拉姆黑勒 Willow Creek Hoodoos 的 Google Maps 商家页面，含评价、照片、行车路线以及官方 Plus Code 9FJ8+78。"
+      },
+      {
+        "name": "皇家蒂雷尔古生物博物馆 — Hoodoos 实地体验",
+        "url": "https://tyrrellmuseum.com/whats_on/off_site_experiences/hoodoos",
+        "description": "皇家蒂雷尔古生物博物馆针对 Willow Creek Hoodoos 解说步道与德拉姆黑勒恶地的官方解读。"
+      },
+      {
+        "name": "Travel Alberta — Hoodoos 与 Hoodoo Trail",
+        "url": "https://www.travelalberta.com/listings/hoodoos-and-hoodoo-trail-4517",
+        "description": "阿尔伯塔省官方旅游门户中针对德拉姆黑勒 Hoodoos 景观公路与 Hoodoo Trail 的景点介绍。"
+      },
+      {
+        "name": "阿尔伯塔省历史遗址名录 — Hoodoo 地形",
+        "url": "https://hermis.alberta.ca/ARHP/Details.aspx?DeptID=1&ObjectID=4665-0062",
+        "description": "阿尔伯塔省文化遗产部门关于 Willow Creek Hoodoos 地形在《Alberta Historic Resources Act》项下的登记页面。"
+      },
+      {
+        "name": "阿尔伯塔省开放出版物库 H09",
+        "url": "https://open.alberta.ca/publications/h09",
+        "description": "阿尔伯塔省政府开放数据出版物，介绍德拉姆黑勒地区 Hoodoo 地质及周边加拿大恶地。"
+      },
+      {
+        "name": "加拿大环境部 — 德拉姆黑勒天气",
+        "url": "https://weather.gc.ca/en/location/index.html?coords=50.117,-113.769",
+        "description": "加拿大环境部针对德拉姆黑勒河谷的天气预报，用于确认 Willow Creek Hoodoos 的访问条件。"
+      },
+      {
+        "name": "加拿大百科全书 — Hoodoo 石柱",
+        "url": "https://www.thecanadianencyclopedia.ca/en/article/hoodoo",
+        "description": "介绍加拿大草原与恶地地区 Hoodoo 地貌及其传说的权威背景资料。"
+      }
+    ]
+  },
+  "amenities": {
+    "title": "实用信息与服务",
+    "subtitle": "让旅程更从容的服务指南——洗手间、停车、餐饮、住宿、商超与加油充电。",
+    "intro": "作为非营利科普指南，我们仅按类型介绍周边服务，不推荐任何具体商户。营业时间与供应情况会随季节变化，请出行前自行核实。",
+    "items": [
+      {
+        "id": "washrooms",
+        "title": "公共洗手间",
+        "text": "Willow Creek Hoodoos 步道起点不设永久性公共洗手间。最近的公共设施位于德拉姆黑勒镇中心，以及从镇上驾车前来的沿途游客服务点。建议在上步道前安排好如厕站点。"
+      },
+      {
+        "id": "parking",
+        "title": "停车与车辆通行",
+        "text": "Coulee Way 沿线步道入口旁设有免费现场停车，可容纳轿车、房车与旅游巴士。末段道路为铺装路面；冬季出行请留意路面结冰情况。"
+      },
+      {
+        "id": "dining",
+        "title": "餐饮与野餐选择",
+        "text": "约 10-15 分钟车程的德拉姆黑勒镇中心提供家庭餐厅、咖啡馆、快餐、烘焙与比萨店等各类餐饮。想就地野餐可自带食物与饮水，并务必把所有垃圾带走。"
+      },
+      {
+        "id": "lodging",
+        "title": "住宿与露营",
+        "text": "按类型划分，德拉姆黑勒河谷提供酒店、汽车旅馆、民宿、旅馆、房车营地与露营地，主要集中在镇区与主要公路沿线。夏季及恐龙主题活动期间建议提前预订。"
+      },
+      {
+        "id": "grocery",
+        "title": "商超与补给",
+        "text": "超市、食品杂货店与便利店均位于德拉姆黑勒镇中心。进入服务稀少的恶地之前，请备足饮水、零食、防晒用品与冰块等物资。"
+      },
+      {
+        "id": "fuel",
+        "title": "加油与充电",
+        "text": "德拉姆黑勒及 9 号、10 号公路沿线设有加油站。区域内电动汽车充电桩数量仍有限，建议出发前在德拉姆黑勒充满电，并通过常用充电 App 核实可用情况。"
+      }
+    ]
+  },
+  "weather": {
+    "title": "Willow Creek Hoodoos 实时天气与预报",
+    "subtitle": "德拉姆黑勒恶地当前的天气状况与未来趋势，全天自动更新。",
+    "now": "当前",
+    "updated": "更新于",
+    "feelsLike": "体感温度",
+    "humidity": "湿度",
+    "wind": "风速",
+    "precipChance": "降雨概率",
+    "forecastTitle": "未来 7 日预报",
+    "high": "最高",
+    "low": "最低",
+    "unavailable": "实时天气暂时无法获取，请在出行前另行查询当地即时天气。",
+    "disclaimer": "预报仅供出行参考。山谷与干谷的天气可能变化很快——出发前请务必留意实时天气与道路状况。",
+    "uvIndex": "紫外线",
+    "uvVeryHigh": "很强",
+    "uvHigh": "较强",
+    "uvModerate": "中等",
+    "uvLow": "较弱",
+    "todayRange": "今日温度",
+    "codes": {
+      "0": "晴",
+      "1": "基本晴朗",
+      "2": "少云",
+      "3": "阴天",
+      "45": "有雾",
+      "48": "冻雾",
+      "51": "小毛毛雨",
+      "53": "毛毛雨",
+      "55": "浓毛毛雨",
+      "56": "冻毛毛雨",
+      "57": "冻毛毛雨",
+      "61": "小雨",
+      "63": "中雨",
+      "65": "大雨",
+      "66": "冻雨",
+      "67": "冻雨",
+      "71": "小雪",
+      "73": "中雪",
+      "75": "大雪",
+      "77": "雪粒",
+      "80": "小阵雨",
+      "81": "阵雨",
+      "82": "强阵雨",
+      "85": "阵雪",
+      "86": "强阵雪",
+      "95": "雷暴",
+      "96": "雷暴伴冰雹",
+      "99": "雷暴伴冰雹"
+    }
+  },
+  "advice": {
+    "title": "给今天出行的你",
+    "subtitle": "根据今日天气预报自动生成",
+    "riskTitle": "风险提醒",
+    "sections": {
+      "clothing": "出行穿搭",
+      "plan": "游玩安排",
+      "items": "随身物品"
+    },
+    "rules": {
+      "sunny": {
+        "clothing": "天气晴好、日照较强：穿轻薄透气的衣物即可。",
+        "plan": "晴朗最适合走 Hoodoo 步道环线——清晨或黄昏光线最佳，人也更少。",
+        "items": "带上防晒霜、遮阳帽与墨镜。"
+      },
+      "cloudy": {
+        "plan": "多云光线柔和、无暴晒：适合慢慢走完步道，也很适合拍照。"
+      },
+      "hot": {
+        "clothing": "气温较高：建议穿轻薄、透气、快干的衣物。",
+        "plan": "尽量安排在上午或傍晚游览，避开正午最晒的时段；这条步道几乎没有遮阴处。",
+        "items": "多备饮用水，带上防晒霜与遮阳帽。"
+      },
+      "uv": {
+        "items": "紫外线较强：即使多云也要涂防晒霜，戴墨镜与宽檐帽。"
+      },
+      "diurnal": {
+        "clothing": "昼夜温差大：带一件轻便外套，方便随时增减。"
+      },
+      "cool": {
+        "clothing": "今天偏冷：建议穿保暖外套，戴上围巾与手套。"
+      },
+      "precip60": {
+        "plan": "下雨概率较高：可优先安排皇家蒂雷尔古生物博物馆等室内项目，把户外步道留给天气转好时。",
+        "items": "带一件轻便雨衣或折叠伞。"
+      },
+      "lightRain": {
+        "plan": "有小雨：泥岩步道会湿滑，请放慢脚步、注意防滑。",
+        "items": "带折叠伞或轻便雨衣比较稳妥。"
+      },
+      "heavyRain": {
+        "risk": "雨势较强：干谷谷底与低洼处可能快速汇水，请远离低洼地带，不要涉水。",
+        "plan": "不太适合走户外步道：强降雨后步道泥泞湿滑，建议改天再来或改去室内场馆。",
+        "items": "带防水雨衣——风大时撑长柄伞并不方便。"
+      },
+      "thunder": {
+        "risk": "有雷雨：不要站在开阔高地，也不要在孤立石柱、大树下或干谷沟底停留避雨，谨防雷电。",
+        "plan": "打雷期间请推迟户外行程，等雷雨彻底过去后再进入步道。"
+      },
+      "snow": {
+        "clothing": "有降雪、天气冷：穿保暖层，戴上手套与毛线帽。",
+        "plan": "步道与台阶可能积雪结冰、比较滑：请穿防滑鞋，放慢脚步。"
+      },
+      "freezingRain": {
+        "risk": "可能有冻雨：路面会很快结冰打滑，建议暂缓出行，等冰面融化后再来。"
+      },
+      "fog": {
+        "plan": "雾气能见度较低：观景视线会受影响，驾车进入 Coulee Way 请减速慢行。"
+      },
+      "windMedium": {
+        "clothing": "风比较大：建议戴贴合的帽子，宽檐帽容易被吹走。",
+        "plan": "崖边观景台风力较强：请与松软易塌的崖缘保持距离，收好随身轻物。"
+      },
+      "windStrong": {
+        "risk": "大风天气：崖壁边缘土质松软，请远离高崖边缘，注意坠石。",
+        "plan": "风很大时观景体验会受影响，出发前请留意步道开放状况。"
+      }
+    }
+  },
+  "drumhellerDayTrip": {
+    "meta": {
+      "title": "德拉姆黑勒一日游：皇家蒂雷尔博物馆与 Willow Creek Hoodoos",
+      "description": "规划经典的德拉姆黑勒一日游：将皇家蒂雷尔古生物博物馆与 Willow Creek Hoodoos 短途徒步相结合，附路线、时间安排、亲子与摄影建议。"
+    },
+    "pageTitle": "德拉姆黑勒一日游：皇家蒂雷尔博物馆 + Willow Creek Hoodoos",
+    "standfirst": "大多数德拉姆黑勒行程中的两个必到点，是皇家蒂雷尔古生物博物馆与 Willow Creek Hoodoos——一个在室内、一个在户外，车程约 15-20 分钟。本页以客观导览的方式，介绍如何将它们组合成半天或全天行程。",
+    "sections": [
+      {
+        "heading": "推荐顺序：上午博物馆、午后傍晚石柱（也可相反）",
+        "paragraphs": [
+          "先从位于德拉姆黑勒西侧 Midland 省立公园内的皇家蒂雷尔博物馆开始。夏季上午在游学团与旅游大巴抵达前通常更清静，馆内冷气充足，也是中午避暑的好去处。",
+          "临近傍晚再去 Willow Creek Hoodoos，低角度的光线更能衬托砂岩柱的层次；或者清晨先去石柱看日出，随后慢慢逛博物馆。两种顺序都可行。"
+        ]
+      },
+      {
+        "heading": "两处各自需要预留的时间",
+        "paragraphs": [
+          "皇家蒂雷尔博物馆：多数游客会在室内停留 2-3 小时（常设展厅加化石修复实验室观察区）。博物馆需购票入场，夏季与学校假期建议提前在其官网预订。本站不公布票价，因为价格会随季节调整，请以官网为准。",
+          "Willow Creek Hoodoos：露天景点免费、全年开放。走完步道与观景点约需 30-60 分钟，摄影爱好者可停留更久。Coulee Way 接近路段有免费停车位。"
+        ]
+      },
+      {
+        "heading": "带孩子怎么安排",
+        "paragraphs": [
+          "博物馆的恐龙展厅对小朋友有天然的吸引力；石柱景区的步道宽敞安全，适合下车活动。在松软崖壁附近的观景点请照看好孩子，夏季备足饮水与防晒，卫生间请在镇上解决——石柱景区现场没有卫生间建筑。"
+        ]
+      },
+      {
+        "heading": "周边还能加哪些点",
+        "paragraphs": [
+          "时间充裕的话，河谷南侧的 Hoodoo Trail 观景点、Horseshoe Canyon、Atlas Coal Mine 国家历史遗址，以及德拉姆黑勒镇内恐龙主题的街头装饰都在顺路范围内。若计划在途中用餐或补给，可参考我们按街区整理的餐饮与商超服务指南。"
+        ]
+      }
+    ]
+  },
+  "foodAndServices": {
+    "meta": {
+      "title": "Willow Creek Hoodoos 附近的餐饮、商超与服务指南（德拉姆黑勒）",
+      "description": "按街区与类型整理的 Willow Creek Hoodoos 及德拉姆黑勒周边餐饮与实用服务客观指南：不推荐、不排名，只告诉你那里有什么、去哪儿找，以及季节性出行建议。"
+    },
+    "pageTitle": "Willow Creek Hoodoos 附近的餐饮、商超与服务",
+    "standfirst": "本页按街区与类型客观介绍 Willow Creek Hoodoos 及德拉姆黑勒周边的餐饮、商超与实用服务。遵循本站编辑立场，我们只列举类别与街区，不推荐、不排名任何具体商户。营业时间随季节变动，出行前请务必自行核实。",
+    "sections": [
+      {
+        "heading": "按街区划分",
+        "paragraphs": [
+          "德拉姆黑勒镇中心：主街与桥头一带集中了镇上最丰富的餐厅、咖啡馆、快餐与商超选择，距石柱景区车程约 10-15 分钟。",
+          "Rosedale 与 Willow Creek 峡谷一侧：距离景区最近的选项不多但实用——多为通往 Coulee Way 的高速路段沿线的便利店与快餐。",
+          "Dinosaur Trail / 9 号公路沿线：在德拉姆黑勒与河谷其他景点之间的车程中，散布着路旁服务与家庭餐厅。",
+          "East Coulee 及其以南：沿 838 号公路往东南，服务规模更接近小型社区，而非完整的商业街区。"
+        ]
+      },
+      {
+        "heading": "按类型划分",
+        "paragraphs": [
+          "堂食餐厅：德拉姆黑勒及周边以家庭餐厅与牛排馆居多，大多集中在镇内而非石柱景区旁。",
+          "快餐与外卖：快餐与得来速主要集中在镇内及主要公路入口沿线。",
+          "咖啡馆、烘焙与冰淇淋：主要在镇中心，夏季是旺季。",
+          "商超与便利店：大型超市在镇内；离峡谷区域更近时，便利店与加油站商店是更实际的选择。",
+          "野餐补给：若计划在石柱景区野餐，请注意景区现场没有餐饮售卖点——请提前备好饮用水与零食。"
+        ]
+      },
+      {
+        "heading": "季节性出行提醒",
+        "paragraphs": [
+          "5 月至 10 月是旺季，多数店铺营业时间较长；其余季节营业时间可能明显缩短，平日或淡季到访前请先确认。",
+          "夏季午间镇内热门餐厅容易满座，行程紧凑的话可考虑提前或延后就餐。"
+        ]
+      }
+    ]
   },
   "footer": {
     "rights": "© 2026 Willow Creek Hoodoos 独立旅游研究协会 · 保留所有权利。",
     "privacy": "隐私政策",
     "terms": "服务条款",
     "cookies": "Cookie 设置",
+    "guidesTitle": "行程指南与周边信息",
+    "dayTripGuide": "德拉姆黑勒一日游：博物馆 + Hoodoos",
+    "foodGuide": "Hoodoos 周边餐饮与服务",
     "officialResourcesTitle": "相关资源与资讯",
     "officialLinks": {
       "drumheller": "德拉姆黑勒镇政府",
@@ -257,7 +627,8 @@
       "royalTyrrell": "皇家蒂雷尔博物馆",
       "geologicalSurvey": "加拿大地质调查局"
     },
-    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
+    "imageCopyright": "本网站展示的所有照片与图片版权归各自原作者所有，受版权保护。未经授权不得复制或再传播。"
   },
   "privacy": {
     "title": "隐私政策",
@@ -273,11 +644,19 @@
       },
       {
         "heading": "3. Cookie 与追踪技术",
-        "content": "我们使用 Cookie 和类似的追踪技术来追踪我们网站上的活动并保存某些信息。您可以指示您的浏览器拒绝所有 Cookie 或在发送 Cookie 时进行提示。"
+        "content": "我们使用 Cookie 和类似的追踪技术来追踪我们网站上的活动并保存某些信息。您可以指示您的浏览器拒绝所有 Cookie 或在发送 Cookie 时进行提示。您也可以随时通过 Cookie 设置页面管理偏好。"
       },
       {
-        "heading": "4. 数据安全",
+        "heading": "4. Google Analytics 4（GA4）",
+        "content": "我们使用 Google Analytics 4（衡量 ID G-HXM22WWPKP）了解访客与 Willow Creek Hoodoos 网站的互动。GA4 可能设置第一方 Cookie 并收集匿名化的使用数据，例如浏览的页面、引荐来源、国家与设备类别。IP 地址已做匿名化处理。若您在 Cookie 设置页面关闭分析 Cookie，则不会向 Google 发送任何分析数据。"
+      },
+      {
+        "heading": "5. 数据安全",
         "content": "您数据的安全性对我们很重要。我们努力使用商业上可接受的方式来保护您的个人数据，但任何互联网传输方法都无法保证100%安全。"
+      },
+      {
+        "heading": "6. 第三方链接",
+        "content": "本网站包含指向 Google Maps、阿尔伯塔省旅游局、皇家蒂雷尔博物馆及其他权威站点的外部链接。我们对这些第三方网站的隐私做法或内容不承担责任。"
       }
     ]
   },
@@ -294,8 +673,8 @@
         "content": "本网站是一个独立的第三方旅游资讯项目。提供的信息仅供一般参考。您同意负责任且合法地使用本网站。"
       },
       {
-        "heading": "3. 知识产权",
-        "content": "本网站上的所有内容（包括文本、图像和徽标）均为网站所有者的财产（另有说明的除外）。严禁未经授权的使用、复制或分发。"
+        "heading": "3. 知识产权与图片版权",
+        "content": "本网站的所有文字内容均为网站所有者的财产（另有说明的除外）。本网站展示的所有照片和图片版权归各自原作者所有，受版权保护。未经原版权方明确许可，不得复制、转载或将图片用于商业用途。"
       },
       {
         "heading": "4. 责任限制",
@@ -308,12 +687,13 @@
     "description": "管理您的 Cookie 偏好设置。",
     "essential": {
       "title": "必要的 Cookie",
-      "description": "网站基本功能所需。",
+      "description": "网站基本功能所需，包括语言与主题偏好。",
       "badge": "始终启用"
     },
     "analytics": {
-      "title": "分析 Cookie",
-      "description": "帮助我们了解访客如何与网站互动。"
+      "title": "分析 Cookie（Google Analytics 4）",
+      "description": "帮助我们了解访客如何与 Willow Creek Hoodoos 网站互动。启用后，匿名使用数据将发送至 Google Analytics（G-HXM22WWPKP）。",
+      "badge": "G-HXM22WWPKP"
     },
     "marketing": {
       "title": "营销 Cookie",
@@ -323,8 +703,8 @@
     "saved": "设置已保存！"
   },
   "officialManagement": {
-    "title": "关于 Willow Creek Hoodoos",
-    "text": "Willow Creek Hoodoos（柳树溪石林）是位于加拿大阿尔伯塔省德拉姆黑勒市附近的一处壮观的自然景观。这一自然地标拥有独特的石林（Hoodoo）地貌，由数百年的侵蚀和风化作用形成。\n\n石林（Hoodoo）是从地面拔地而起的细长岩石尖塔，由沉积岩的差异性侵蚀形成。这些迷人的地质结构是好几千年自然力量塑造地貌的结果。\n\n位于加拿大恶地（Canadian Badlands）心脏地带的 Coulee Way 沿线，柳树溪石林为游客提供了近距离观察这些令人难以置信的自然雕塑的机会，并了解阿尔伯塔省草原地区的地质历史。"
+    "title": "关于 Willow Creek Hoodoos（德拉姆黑勒）",
+    "text": "Willow Creek Hoodoos（柳树溪石柱）是位于加拿大阿尔伯塔省德拉姆黑勒市附近的一处壮观的自然景观。这一自然地标拥有独特的石林（Hoodoo）地貌，由数百年的侵蚀和风化作用形成。\n\n石林（Hoodoo）是从地面拔地而起的细长岩石尖塔，由沉积岩的差异性侵蚀形成。这些迷人的地质结构是好几千年自然力量塑造地貌的结果。\n\n位于加拿大恶地（Canadian Badlands）心脏地带的 Coulee Way 沿线，柳树溪石林为游客提供了近距离观察这些令人难以置信的自然雕塑的机会，并了解阿尔伯塔省草原地区的地质历史。"
   },
   "recommendations": {
     "title": "",

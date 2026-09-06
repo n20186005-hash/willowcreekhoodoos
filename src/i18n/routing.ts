@@ -2,7 +2,7 @@ import { defineRouting } from 'next-intl/routing';
 
 export const routing = defineRouting({
   locales: ['zh', 'en'],
-  defaultLocale: 'zh',
+  defaultLocale: 'en',
   localePrefix: {
     mode: 'always',
   },
@@ -11,6 +11,8 @@ export const routing = defineRouting({
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',
+    '/drumheller-day-trip': '/drumheller-day-trip',
+    '/food-and-services': '/food-and-services',
   },
 });
 

@@ -6,6 +6,7 @@ export default function Intro() {
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
+  const breadcrumbItems: string[] = messages?.intro?.breadcrumbItems || [];
 
   return (
     <section className="section-padding">
@@ -17,6 +18,43 @@ export default function Intro() {
           {t('title')}
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
+
+        {/* Semantic equivalence statement (entity ↔ short/common name) */}
+        {messages?.intro?.entityIntro && (
+          <p
+            className="text-base sm:text-lg leading-relaxed mb-6 font-medium"
+            style={{ color: 'var(--text-primary)' }}
+          >
+            {t('entityIntro')}
+          </p>
+        )}
+
+        {/* Geographic breadcrumb: Willow Creek Hoodoos → City → State → Country */}
+        {breadcrumbItems.length > 0 && (
+          <nav
+            aria-label={t('breadcrumbLabel')}
+            className="mb-8 text-sm"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            <ol className="flex flex-wrap items-center gap-x-1 gap-y-1">
+              {breadcrumbItems.map((segment, i) => (
+                <li key={i} className="flex items-center gap-1">
+                  {i > 0 && (
+                    <span aria-hidden="true" style={{ color: 'var(--text-muted)' }}>
+                      →
+                    </span>
+                  )}
+                  <span
+                    className={i === 0 ? 'font-semibold' : ''}
+                    style={{ color: i === 0 ? 'var(--accent)' : 'var(--text-secondary)' }}
+                  >
+                    {segment}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )}
 
         <p
           className="text-lg leading-relaxed mb-12"
@@ -66,6 +104,27 @@ export default function Intro() {
             </ul>
           </div>
         </div>
+
+        {/* Nearby landmarks semantic cluster */}
+        {messages?.intro?.nearbyIntro && (
+          <div
+            className="mt-8 rounded-xl p-6 sm:p-8"
+            style={{ background: 'var(--bg-tertiary)' }}
+          >
+            <h3
+              className="font-display text-xl font-semibold mb-3"
+              style={{ color: 'var(--text-primary)' }}
+            >
+              {t('nearbyTitle')}
+            </h3>
+            <p
+              className="text-base leading-relaxed"
+              style={{ color: 'var(--text-secondary)' }}
+            >
+              {t('nearbyIntro')}
+            </p>
+          </div>
+        )}
 
         <div className="mt-12 p-6 sm:p-8 rounded-xl border border-[var(--accent)]" style={{ background: 'var(--bg-tertiary)' }}>
           <h2 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
