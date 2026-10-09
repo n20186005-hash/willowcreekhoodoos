@@ -1,9 +1,9 @@
 import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { SITE_ORIGIN } from '@/lib/seo';
-import TopicPage from '@/components/TopicPage';
+import PhotosView from '@/components/PhotosView';
 
-const SLUG = 'food-and-services';
+const SLUG = 'photos';
 
 export async function generateMetadata({
   params,
@@ -15,7 +15,7 @@ export async function generateMetadata({
   const zhUrl = `${SITE_ORIGIN}/zh/${SLUG}`;
   const enUrl = `${SITE_ORIGIN}/en/${SLUG}`;
   const selfUrl = locale === 'zh' ? zhUrl : enUrl;
-  const ns = messages?.foodAndServices?.meta;
+  const ns = messages?.photos?.meta;
 
   return {
     title: ns?.title ?? messages?.meta?.title,
@@ -36,12 +36,12 @@ export async function generateMetadata({
   };
 }
 
-export default async function FoodServicesPage({
+export default async function PhotosPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <TopicPage namespace={SLUG} />;
+  return <PhotosView />;
 }

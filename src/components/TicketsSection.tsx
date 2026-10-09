@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import ParkingNote from './ParkingNote';
 
 export default function TicketsSection() {
   const t = useTranslations('tickets');
@@ -59,6 +60,7 @@ export default function TicketsSection() {
                   {t('parking')}
                 </h3>
                 <p className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>{t('parkingPrice')}</p>
+                <ParkingNote />
               </div>
             </div>
           </div>

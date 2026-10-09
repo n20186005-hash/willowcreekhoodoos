@@ -46,6 +46,18 @@ export default function Footer() {
             <a href={`${prefix}/food-and-services`} className="hover:underline" style={{ color: 'var(--accent)' }}>
               {t('foodGuide')}
             </a>
+            <a href={`${prefix}/parking-and-directions`} className="hover:underline" style={{ color: 'var(--accent)' }}>
+              {t('parkingGuide')}
+            </a>
+            <a href={`${prefix}/hoodoos-trail-guide`} className="hover:underline" style={{ color: 'var(--accent)' }}>
+              {t('trailGuide')}
+            </a>
+            <a href={`${prefix}/photos`} className="hover:underline" style={{ color: 'var(--accent)' }}>
+              {t('photosGuide')}
+            </a>
+            <a href={`${prefix}/things-to-do-in-drumheller`} className="hover:underline" style={{ color: 'var(--accent)' }}>
+              {t('thingsToDoGuide')}
+            </a>
             <div className="flex flex-wrap gap-4 pt-2">
               <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
                 {t('privacy')}

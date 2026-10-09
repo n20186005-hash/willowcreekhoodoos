@@ -19,7 +19,8 @@ export const ATTRACTION = {
   mapsEmbedSrc:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4260.610218247472!2d-112.5342411!3d51.3806406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537310bbb13aab47%3A0x413e22da4a7149cc!2sWillow%20Creek%20Hoodoos!5e1!3m2!1sen!2s!4v1788712369946!5m2!1sen!2s',
   rating: '4.6',
-  reviewCount: 6542,
+  reviewCount: 6642,
+  reviewCheckedDate: 'October 2026',
   description:
     'Popular hike through a unique landscape featuring otherworldly sandstone pillars with rock caps.',
   nearbyLandmarks: [
@@ -32,6 +33,12 @@ export const ATTRACTION = {
 } as const;
 
 export const SITE_ORIGIN = `https://${ATTRACTION.domain}`;
+
+// Official Town of Drumheller visitor parking policy. The Hoodoos lot is a
+// paid lot during the designated visitor season — link here so visitors can
+// confirm current rates, hours and payment instructions before arriving.
+export const PARKING_POLICY_URL =
+  'https://www.drumheller.ca/live/pay-parking/visitor-parking';
 
 export const heroImageUrl = `${SITE_ORIGIN}/images/hero.jpg`;
 

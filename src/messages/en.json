@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Willow Creek Hoodoos (Drumheller) 2026: Visitor Guide, Trail & Parking",
-    "description": "Plan your 2026 visit to Willow Creek Hoodoos in Drumheller: free year-round access, parking on Coulee Way, an easy 1-2 km trail and photography tips - minutes from the Royal Tyrrell Museum."
+    "title": "Willow Creek Hoodoos, Drumheller | Trail, Parking & Visitor Guide",
+    "description": "Plan your visit to Willow Creek Hoodoos near Drumheller, Alberta. Explore the hoodoo trail, parking and directions, the best times to visit and photos - minutes from the Royal Tyrrell Museum."
   },
   "header": {
     "home": "Home",
@@ -14,7 +14,7 @@
     "title": "Willow Creek Hoodoos (Drumheller)",
     "subtitle": "Scenic spot — iconic sandstone hoodoos with rock caps in the Canadian Badlands",
     "rating": "4.6",
-    "reviewCount": "6,542 Google reviews",
+    "reviewCount": "6,642 Google reviews",
     "type": "Scenic Spot · Alberta Must-Visit",
     "openMaps": "View Location"
   },
@@ -74,7 +74,7 @@
       {
         "id": "location",
         "title": "Location & Access",
-        "content": "Willow Creek Hoodoos is located along Coulee Way in Drumheller, Alberta, Canada. The site is easily accessible by car, with free on-site parking along Coulee Way. Coordinates are approximately 51.3806° N, 112.5342° W (Google Maps plus code 9FJ8+78 Drumheller, Alberta, Canada).\n\nDrumheller is known as the 'Dinosaur Capital of the World' and is located about 135 kilometres northeast of Calgary. The hoodoos are one of the many natural attractions in the area, alongside the Royal Tyrrell Museum of Palaeontology, the Hoodoo Trail and Dinosaur Provincial Park."
+        "content": "Willow Creek Hoodoos is located along Coulee Way in Drumheller, Alberta, Canada. The site is easily accessible by car, with a paid parking lot at the Hoodoos site during the Town of Drumheller's designated visitor season (check the Town of Drumheller visitor parking page for current rates). Coordinates are approximately 51.3806° N, 112.5342° W (Google Maps plus code 9FJ8+78 Drumheller, Alberta, Canada).\n\nDrumheller is known as the 'Dinosaur Capital of the World' and is located about 135 kilometres northeast of Calgary. The hoodoos are one of the many natural attractions in the area, alongside the Royal Tyrrell Museum of Palaeontology, the Hoodoo Trail and Dinosaur Provincial Park."
       },
       {
         "id": "dinosaurs",
@@ -109,7 +109,7 @@
     "city": "City",
     "cityValue": "Drumheller, Alberta",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.6/5 (6,542)",
+    "googleRatingValue": "4.6/5 (6,642)",
     "phone": "Phone",
     "phoneValue": "+1 403-823-7741",
     "address": "Address",
@@ -133,9 +133,13 @@
     "park": "Site Visit",
     "parkPrice": "Free admission, no entrance fee",
     "parking": "Parking",
-    "parkingPrice": "Free on-site parking available",
+    "parkingPrice": "Paid parking (seasonal)",
     "guided": "Guided Tours",
     "guidedPrice": "Self-guided visit. Guided tours may be available through local tour operators in Drumheller."
+  },
+  "parking": {
+    "note": "Paid parking applies at the Hoodoos lot during the Town of Drumheller's designated visitor season. Rates and payment instructions change by season.",
+    "policyLabel": "Check current rates on the Town of Drumheller visitor parking page"
   },
   "transport": {
     "title": "How to Get Here",
@@ -150,7 +154,7 @@
     "walking": "Walking or Biking",
     "walkingDesc": "Not recommended from town center due to distance and lack of dedicated pathways. Best to drive or take a tour.",
     "driving": "Driving & Parking",
-    "drivingDesc": "Free parking available on-site. The road is paved and accessible by all vehicles. Follow signs to 'Hoodoos' from Drumheller town center."
+    "drivingDesc": "Paid parking applies at the Hoodoos lot during the visitor season. The road is paved and accessible by all vehicles. Follow signs to 'Hoodoos' from Drumheller town center, and check the Town of Drumheller parking page for current rates."
   },
   "route": {
     "title": "Recommended Visit Route",
@@ -244,34 +248,9 @@
   },
   "reviews": {
     "title": "Visitor Reviews",
-    "declaration": "Visitor feedback for Willow Creek Hoodoos can be viewed on Google Maps (external link).",
+    "declaration": "Willow Creek Hoodoos holds a 4.6/5 rating on Google Maps (about 6,642 reviews, checked October 2026). Verified visitor reviews are published on Google Maps — follow the link below to read them.",
     "moreReviews": "View more reviews on Google Maps",
-    "items": [
-      {
-        "name": "Sarah M.",
-        "date": "May 2026",
-        "rating": 5,
-        "text": "Amazing natural rock formations! The hoodoos are even more impressive in person. Great educational signs along the trail. Perfect stop when visiting Drumheller and the Royal Tyrrell Museum."
-      },
-      {
-        "name": "James T.",
-        "date": "April 2026",
-        "rating": 5,
-        "text": "A must-see when in Drumheller! The site is well-maintained with good parking and easy walking paths. The interpretive signs are very informative about how Willow Creek Hoodoos were formed."
-      },
-      {
-        "name": "Emily L.",
-        "date": "March 2026",
-        "rating": 4,
-        "text": "Beautiful scenery and great for photography. Visited in spring and the weather was perfect. Would recommend going early in the morning to avoid crowds and get the best light."
-      },
-      {
-        "name": "Michael R.",
-        "date": "February 2026",
-        "rating": 5,
-        "text": "Fascinating geological site! Free to visit and easy to access. The kids loved learning about how these rock formations were created. A great addition to our Drumheller dinosaur trip."
-      }
-    ]
+    "items": []
   },
   "mapSection": {
     "title": "Location & How to Visit Willow Creek Hoodoos",
@@ -324,7 +303,7 @@
       },
       {
         "question": "Where can I park when visiting Willow Creek Hoodoos?",
-        "answer": "Free on-site parking is available along Coulee Way, directly adjacent to the trailhead of Willow Creek Hoodoos. The lot accommodates cars, RVs and tour buses."
+        "answer": "Paid parking applies at the Hoodoos lot during the Town of Drumheller's designated visitor season. The lot sits along Coulee Way directly beside the trailhead and fits cars, RVs and tour buses. Rates and payment instructions change by season, so check current details on the Town of Drumheller visitor parking page before you arrive: https://www.drumheller.ca/live/pay-parking/visitor-parking"
       },
       {
         "question": "Are there washrooms or restrooms near Willow Creek Hoodoos?",
@@ -341,9 +320,9 @@
     "description": "Authoritative sources consulted for this Willow Creek Hoodoos visitor guide, including the official attraction site, Google Maps listing, the Royal Tyrrell Museum, Travel Alberta and Alberta government resources.",
     "items": [
       {
-        "name": "Willow Creek Hoodoos (official site)",
+        "name": "Willow Creek Hoodoos (this website)",
         "url": "https://www.willowcreekhoodoos.com/",
-        "description": "Official visitor site for the Willow Creek Hoodoos scenic spot, providing visitor information, coordinates and the official Google Maps plus code."
+        "description": "The independent visitor guide published at willowcreekhoodoos.com, providing visitor information, coordinates and the Google Maps plus code."
       },
       {
         "name": "Google Maps — Willow Creek Hoodoos",
@@ -395,7 +374,7 @@
       {
         "id": "parking",
         "title": "Parking & Vehicle Access",
-        "text": "Free on-site parking is available along Coulee Way beside the trailhead and fits cars, RVs and tour buses. The final stretch of road is paved; in winter, check for ice before driving."
+        "text": "Paid parking applies at the Hoodoos lot during the Town of Drumheller's designated visitor season. The lot sits along Coulee Way beside the trailhead and fits cars, RVs and tour buses. Rates and payment change by season, so confirm current details on the Town of Drumheller visitor parking page before you arrive. The final stretch of road is paved; in winter, check for ice before driving."
       },
       {
         "id": "dining",
@@ -558,7 +537,7 @@
         "heading": "What to budget for each stop",
         "paragraphs": [
           "Royal Tyrrell Museum: most visitors spend 2-3 hours indoors (the galleries plus the Fossil Preparation Lab viewing area). Admission is ticketed and, during summer and school breaks, booking ahead on the museum's official website is recommended. We do not publish prices here because they change seasonally - always confirm on the official site.",
-          "Willow Creek Hoodoos: the open-air site is free and accessible year-round. Allow 30-60 minutes to walk the trail and viewpoints, or longer for photography. Free parking is available on the approach along Coulee Way."
+          "Willow Creek Hoodoos: the open-air site is free and accessible year-round. Allow 30-60 minutes to walk the trail and viewpoints, or longer for photography. Paid parking applies at the Hoodoos lot during the visitor season — confirm current rates on the Town of Drumheller parking page."
         ]
       },
       {
@@ -611,6 +590,135 @@
       }
     ]
   },
+  "parkingAndDirections": {
+    "meta": {
+      "title": "Willow Creek Hoodoos Parking & Directions (Drumheller)",
+      "description": "How to get to Willow Creek Hoodoos near Drumheller: driving directions from Calgary and Drumheller, the paid parking lot at the site, and tips for RVs and buses."
+    },
+    "pageTitle": "Willow Creek Hoodoos: Parking & Directions",
+    "standfirst": "Practical directions for reaching Willow Creek Hoodoos, the paid parking at the site, and how to plan the drive from Calgary or Drumheller town centre.",
+    "sections": [
+      {
+        "heading": "Getting there from Drumheller town centre",
+        "paragraphs": [
+          "Willow Creek Hoodoos is about a 10-15 minute drive from downtown Drumheller. Follow the signs to the Hoodoo Trail (Highway 10) and then to 'Hoodoos'; the site sits along Coulee Way on the south side of the valley.",
+          "The final approach is paved and suitable for cars, RVs and tour buses. There is no public transit to the site, so driving or joining a guided tour from Calgary or Drumheller is the most reliable option."
+        ]
+      },
+      {
+        "heading": "From Calgary (YYC)",
+        "paragraphs": [
+          "Drive about 1.5-2 hours from Calgary. Take Highway 2 North, then Highway 9 East to Drumheller, and follow signs to the Hoodoo Trail. From the Calgary airport (YYC) allow closer to 2 hours with rental-car pick-up and summer traffic.",
+          "It is an easy half-day or full-day loop: pair the Hoodoos with the Royal Tyrrell Museum, which is roughly 15-20 minutes away by car."
+        ]
+      },
+      {
+        "heading": "Parking at the site",
+        "paragraphs": [
+          "Paid parking applies at the Hoodoos lot during the Town of Drumheller's designated visitor season. The lot sits along Coulee Way directly beside the trailhead and fits cars, RVs and tour buses.",
+          "Rates and payment instructions change by season. Confirm current details on the Town of Drumheller visitor parking page before you set off, and carry a payment method that works at the lot."
+        ]
+      },
+      {
+        "heading": "Tips for RVs, buses and families",
+        "paragraphs": [
+          "The lot and access road are paved, but the trail surface is uneven gravel — sturdy shoes are recommended and the trail is not step-free. In peak summer the lot fills early, so arrive in the morning.",
+          "There are no permanent public washrooms at the trailhead. Plan restroom stops in Drumheller town centre before you arrive, and carry water, especially on hot days."
+        ]
+      }
+    ]
+  },
+  "hoodoosTrailGuide": {
+    "meta": {
+      "title": "Willow Creek Hoodoos Trail Guide (Drumheller)",
+      "description": "The Willow Creek Hoodoos trail: length, difficulty, viewpoints, the best time to walk, and what to see along the interpretive loop near Drumheller."
+    },
+    "pageTitle": "Willow Creek Hoodoos Trail Guide",
+    "standfirst": "Everything you need to know about walking the Willow Creek Hoodoos trail — distance, surface, viewpoints and the best light for photography.",
+    "sections": [
+      {
+        "heading": "Trail at a glance",
+        "paragraphs": [
+          "The Willow Creek Hoodoos walk is a short, family-friendly loop of roughly 1-2 kilometres. Plan about 60-90 minutes to walk the trail, photograph the hoodoos and read the interpretive signs.",
+          "The surface is uneven, loose gravel with a few steps near the viewpoint. It is not step-free, so wear sturdy footwear and take care with children and strollers."
+        ]
+      },
+      {
+        "heading": "Highlights along the route",
+        "paragraphs": [
+          "Start at the parking area on Coulee Way and follow the designated pathway to the main viewing platform, which looks out over the cluster of hoodoos and the Badlands beyond.",
+          "Interpretive signs along the trail explain how the sandstone pillars formed, and the close-up rock faces show the sedimentary layers that record an ancient river floodplain."
+        ]
+      },
+      {
+        "heading": "Best time to walk",
+        "paragraphs": [
+          "Late spring through mid-autumn (May to October) is the most comfortable window, with sunrise and sunset giving the softest light on the sandstone. Summer afternoons are hot and the trail has almost no shade.",
+          "In winter the hoodoos dusted with snow are especially photogenic, but the path can be icy — wear non-slip boots and walk slowly."
+        ]
+      },
+      {
+        "heading": "Trail etiquette & safety",
+        "paragraphs": [
+          "Stay on the marked pathway and never climb the hoodoos or remove rocks — the sandstone is fragile and protected. Keep back from the soft cliff edges at the viewpoint.",
+          "Weather in the coulees changes fast. Check the forecast, carry water and sun protection, and postpone the walk if thunderstorms are forecast."
+        ]
+      }
+    ]
+  },
+  "thingsToDoInDrumheller": {
+    "meta": {
+      "title": "Things to Do in Drumheller Near the Hoodoos",
+      "description": "Beyond the Hoodoos: the Royal Tyrrell Museum, Hoodoo Trail, Horseshoe Canyon, Atlas Coal Mine and family activities in Drumheller, Alberta."
+    },
+    "pageTitle": "Things to Do in Drumheller",
+    "standfirst": "A neutral orientation guide to the top things to do around Drumheller, paired with your visit to Willow Creek Hoodoos.",
+    "sections": [
+      {
+        "heading": "Royal Tyrrell Museum of Palaeontology",
+        "paragraphs": [
+          "The Royal Tyrrell Museum is one of the world's premier palaeontology museums, about 15-20 minutes from the Hoodoos. Most visitors spend 2-3 hours indoors among dinosaur skeletons and the fossil preparation lab.",
+          "Admission is ticketed and, in summer and school breaks, booking ahead on the museum's official website is recommended. We do not publish prices because they change seasonally — confirm on the official site."
+        ]
+      },
+      {
+        "heading": "Hoodoo Trail & roadside viewpoints",
+        "paragraphs": [
+          "The Hoodoo Trail (Highway 10) is a scenic drive with pull-offs and viewpoints over the Badlands. Willow Creek Hoodoos is the most developed stop, but several roadside viewpoints are worth a short stop.",
+          "Allow extra time if you want to string together multiple viewpoints rather than just the main Hoodoos lot."
+        ]
+      },
+      {
+        "heading": "Horseshoe Canyon",
+        "paragraphs": [
+          "Horseshoe Canyon is a dramatic, layered canyon about 15-20 minutes from Drumheller with a viewpoint and a steep trail into the coulees. It is a good add-on for photography and a short hike.",
+          "The descent is strenuous and exposed — the rim viewpoint alone is rewarding if you are short on time."
+        ]
+      },
+      {
+        "heading": "Atlas Coal Mine National Historic Site",
+        "paragraphs": [
+          "The Atlas Coal Mine National Historic Site tells the story of Drumheller's coal-mining era, with guided tours and a restored tipple. It sits about 20-25 minutes east of town.",
+          "Tour availability is seasonal, so check ahead if a guided experience is part of your plan."
+        ]
+      },
+      {
+        "heading": "Family & rainy-day options",
+        "paragraphs": [
+          "On hot or wet days, lean on indoor stops: the Royal Tyrrell Museum, the Drumheller Museum and the town's dinosaur-themed street decor keep kids engaged.",
+          "Drumheller town centre (10-15 minutes away) has restaurants, cafés, grocery stores, fuel and lodging by type — see our food & services guide for a neutral overview."
+        ]
+      }
+    ]
+  },
+  "photos": {
+    "meta": {
+      "title": "Willow Creek Hoodoos Photos & Viewpoints (Drumheller)",
+      "description": "Real photos of Willow Creek Hoodoos near Drumheller: the main viewpoint, rock-cap details, the interpretive trail, sunrise and sunset, and the Badlands panorama."
+    },
+    "pageTitle": "Willow Creek Hoodoos Photos & Viewpoints",
+    "standfirst": "A gallery of Willow Creek Hoodoos from different angles and times of day — the main viewpoint, rock layers, the trail, and golden-hour light over the Badlands."
+  },
   "footer": {
     "rights": "© 2026 Willow Creek Hoodoos Independent Tourism Research Association · All rights reserved.",
     "privacy": "Privacy Policy",
@@ -619,6 +727,10 @@
     "guidesTitle": "Trip Guides & Nearby Information",
     "dayTripGuide": "Drumheller Day Trip: Tyrrell Museum + Hoodoos",
     "foodGuide": "Food & Services Near the Hoodoos",
+    "parkingGuide": "Parking & Directions",
+    "trailGuide": "Hoodoos Trail Guide",
+    "photosGuide": "Photos & Viewpoints",
+    "thingsToDoGuide": "Things to Do in Drumheller",
     "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
       "drumheller": "Town of Drumheller",
@@ -704,7 +816,7 @@
   },
   "officialManagement": {
     "title": "About Willow Creek Hoodoos (Drumheller)",
-    "text": "Willow Creek Hoodoos is a spectacular scenic spot located near Drumheller, Alberta, Canada. This natural landmark features unique hoodoo rock formations created by centuries of erosion and weathering.\n\nHoodoos are tall, thin rock spires that rise from the ground, formed by differential erosion of sedimentary rock. These fascinating geological structures are the result of thousands of years of natural forces shaping the landscape.\n\nLocated along Coulee Way in the heart of the Canadian Badlands, Willow Creek Hoodoos offers visitors a chance to witness these incredible natural sculptures up close and learn about the geological history of Alberta's prairie region."
+    "text": "Willow Creek Hoodoos is a free, year-round scenic stop on the south side of the Drumheller Valley, about 10-15 minutes from town and 15-20 minutes from the Royal Tyrrell Museum. The site has a paved access road, a paid parking lot in season, an interpretive trail loop of roughly 1-2 km, and a viewing platform over the hoodoos. Plan 30-90 minutes, wear sturdy shoes, and check the weather before you set out."
   },
   "recommendations": {
     "title": "",

@@ -1,6 +1,7 @@
 'use client';
 
 import { useMessages, useTranslations } from 'next-intl';
+import ParkingNote from './ParkingNote';
 
 type Amenity = { id: string; title: string; text: string };
 
@@ -113,6 +114,7 @@ export default function AmenitiesSection() {
               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                 {item.text}
               </p>
+              {item.id === 'parking' && <ParkingNote />}
             </article>
           ))}
         </div>

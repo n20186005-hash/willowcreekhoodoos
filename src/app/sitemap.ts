@@ -8,7 +8,14 @@ const galleryImages = Array.from(
 );
 
 const legalPages = ['privacy-policy', 'terms-of-service', 'cookie-settings'] as const;
-const contentPages = ['drumheller-day-trip', 'food-and-services'] as const;
+const contentPages = [
+  'drumheller-day-trip',
+  'food-and-services',
+  'parking-and-directions',
+  'hoodoos-trail-guide',
+  'photos',
+  'things-to-do-in-drumheller',
+] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();

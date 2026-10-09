@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { SITE_ORIGIN } from '@/lib/seo';
 import TopicPage from '@/components/TopicPage';
 
-const SLUG = 'food-and-services';
+const SLUG = 'hoodoos-trail-guide';
 
 export async function generateMetadata({
   params,
@@ -15,7 +15,7 @@ export async function generateMetadata({
   const zhUrl = `${SITE_ORIGIN}/zh/${SLUG}`;
   const enUrl = `${SITE_ORIGIN}/en/${SLUG}`;
   const selfUrl = locale === 'zh' ? zhUrl : enUrl;
-  const ns = messages?.foodAndServices?.meta;
+  const ns = messages?.hoodoosTrailGuide?.meta;
 
   return {
     title: ns?.title ?? messages?.meta?.title,
@@ -36,7 +36,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function FoodServicesPage({
+export default async function HoodoosTrailGuidePage({
   params,
 }: {
   params: Promise<{ locale: string }>;
